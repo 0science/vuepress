@@ -46,7 +46,7 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/guide/examination/",
+    "path": "/guide/diary/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -212,6 +212,13 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
+    "path": "/guide/examination/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
     "path": "/guide/software/",
     "pathLocale": "/",
     "extraFields": []
@@ -226,28 +233,8 @@ export const searchIndex = [
   {
     "title": "",
     "headers": [],
-    "path": "/guide/diary/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/404.html",
     "pathLocale": "/",
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
