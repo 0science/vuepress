@@ -22,8 +22,9 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-
-git push -f origin master
+git remote add origin git@github.com:0science/vuepress.git
+git branch -M main
+git push -f git@github.com:0science/vuepress.git main:gh-pages
 
 cd -
 
