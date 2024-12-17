@@ -1,4 +1,4 @@
-<p align="center"><img width="180" src="https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200409124835.png" alt="logo"></a></p>
+<p align="center"><img width="180" src="https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200409124835.png" alt="logo"></p>
 
 <p align="center">
   <img alt="npm" src="https://img.shields.io/npm/v/vuepress-theme-vdoing">

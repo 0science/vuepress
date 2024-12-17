@@ -1,1 +1,14 @@
-export const data = JSON.parse("{\"key\":\"v-fffb8e28\",\"path\":\"/guide/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"课程\",\"slug\":\"课程\",\"link\":\"#课程\",\"children\":[{\"level\":3,\"title\":\"计算机基础\",\"slug\":\"计算机基础\",\"link\":\"#计算机基础\",\"children\":[]}]},{\"level\":2,\"title\":\"技巧\",\"slug\":\"技巧\",\"link\":\"#技巧\",\"children\":[]}],\"git\":{\"updatedTime\":1733830787000,\"contributors\":[{\"name\":\"djm\",\"email\":\"1415847612@qq.com\",\"commits\":1}]},\"filePathRelative\":\"guide/README.md\"}")
+export const data = JSON.parse("{\"key\":\"v-fffb8e28\",\"path\":\"/guide/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":3,\"title\":\"一、HTML\",\"slug\":\"一、html\",\"link\":\"#一、html\",\"children\":[]},{\"level\":3,\"title\":\"二、CSS\",\"slug\":\"二、css\",\"link\":\"#二、css\",\"children\":[]},{\"level\":3,\"title\":\"三、JavaScript\",\"slug\":\"三、javascript\",\"link\":\"#三、javascript\",\"children\":[]},{\"level\":3,\"title\":\"Java\",\"slug\":\"java\",\"link\":\"#java\",\"children\":[]},{\"level\":3,\"title\":\"面试题\",\"slug\":\"面试题\",\"link\":\"#面试题\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"guide/README.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

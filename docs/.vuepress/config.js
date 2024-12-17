@@ -8,6 +8,7 @@ export default defineUserConfig({
   port: 8090,
   title: '赛博空间',
   description: '一个汇集了我所学知识的仓库',
+  // base: '.',
   head: [['link', { rel: 'icon', href: 'image/monkey.ico' }]],
   theme: defaultTheme({
 
@@ -16,9 +17,18 @@ export default defineUserConfig({
     navbar: [
       // 导航栏
       {
-        text: '导航',
+        text: '主页',
         link: '/guide/README.md',
       },
+      {
+        text: 'HTML',
+        link: '/guide/HTML/README.md',
+      },
+      {
+        text: 'JavaScript',
+        link: '/guide/javascript/README.md',
+      },
+
       {
         text: '考研',
         link: '/guide/examination/README.md',
@@ -53,9 +63,8 @@ export default defineUserConfig({
         text: '其他',
         children: ['/', '/'],
       },
-    ],
 
-    
+    ]
   }),
   bundler: webpackBundler(),
   //插件
@@ -71,5 +80,5 @@ export default defineUserConfig({
       },
     }),
   ],
-  
+
 })
