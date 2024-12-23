@@ -1,1 +1,4 @@
 node_modules
+# 隐藏.cache 文件夹
+.cache
+.temp

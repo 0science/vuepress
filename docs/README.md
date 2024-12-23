@@ -1,6 +1,5 @@
 ---
 home: true
-heroImage: '/image/background.jpg'
 # 背景图
 
 title: 主页

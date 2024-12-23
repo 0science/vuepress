@@ -1,35 +1,9 @@
 <template><div><h2 id="一、css基础" tabindex="-1"><a class="header-anchor" href="#一、css基础"><span>一、CSS基础</span></a></h2>
 <h3 id="特性" tabindex="-1"><a class="header-anchor" href="#特性"><span>特性</span></a></h3>
-<table>
-<thead>
-<tr>
-<th>性质</th>
-<th>作用</th>
-<th>原因</th>
-<th>解决方式</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>层叠性</td>
-<td>解决样式冲突</td>
-<td>同名不同值</td>
-<td>后面覆盖前面</td>
-</tr>
-<tr>
-<td>继承性</td>
-<td>元素自动拥有其父辈元素样式</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>可继承</td>
-<td>text-?? ， font-?? ， line-?? 、 color</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<ol>
+<li>层叠性：同一元素，不同选择器，不同属性，不同值，最终取最后一个。</li>
+<li>继承性：子元素默认继承父元素的样式。</li>
+</ol>
 <h3 id="开发者文档" tabindex="-1"><a class="header-anchor" href="#开发者文档"><span>开发者文档</span></a></h3>
 <p><a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">兼容性<ExternalLinkIcon/></a></p>
 <table>
