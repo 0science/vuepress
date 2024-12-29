@@ -107,7 +107,7 @@ export default defineUserConfig({
           },
           {
             text: '实战',
-            link: '/guide/04.Javascript/实战.md',
+            link: '/guide/04.Javascript/Javascript实战.md',
           },
         ]
       },
