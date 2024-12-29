@@ -72,32 +72,31 @@
 </tbody>
 </table>
 <h3 id="语法规范" tabindex="-1"><a class="header-anchor" href="#语法规范"><span>语法规范</span></a></h3>
-<!-- ![alt text](image.png) -->
-<p><strong>选择器</strong>：找到要添加样式的元素。
-<strong>声明块</strong>：设置具体的样式（声明块是由一个或多个声明组成的），</p>
-<pre><code>声明的格式为： 属性名: 属性值;
+<div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre v-pre class="language-text"><code>&lt;!-- ![alt text](image.png) -->
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>选择器</strong>：找到要添加样式的元素。</p>
+<p><strong>声明块</strong>：设置具体的样式（声明块是由一个或多个声明组成的），</p>
+<blockquote>
+<p>声明的格式为： 属性名: 属性值;
 声明后加分号
-选择器与声明块之间，属性名与属性值之间，均有一个空格
-</code></pre>
+选择器与声明块之间，属性名与属性值之间，均有一个空格</p>
+</blockquote>
 <h3 id="注释规范" tabindex="-1"><a class="header-anchor" href="#注释规范"><span>注释规范</span></a></h3>
-<pre><code>/* 给h1元素添加样式 */
-h1 {
-	/* 设置文字颜色为红色 */
-	color: red;
-	/* 设置文字大小为40px */
-	font-size: 40px
-}
-</code></pre>
-<h3 id="代码风格" tabindex="-1"><a class="header-anchor" href="#代码风格"><span>代码风格</span></a></h3>
-<p><strong>展开风格</strong>：开发时推荐，便于维护和调试。
-<strong>写法</strong>：</p>
-<pre><code>h1 {
-	color: red;
-	font-size: 40px;
-}
-</code></pre>
-<p><strong>紧凑风格</strong>：项目上线时推荐，可减小文件体积。
-<strong>写法</strong>：<code v-pre>h1{color:red;font-size:40px;}</code></p>
+<div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre v-pre class="language-text"><code>    /* 给h1元素添加样式 */
+    h1 {
+    	/* 设置文字颜色为红色 */
+    	color: red;
+    	/* 设置文字大小为40px */
+    	font-size: 40px
+    }
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="代码风格" tabindex="-1"><a class="header-anchor" href="#代码风格"><span>代码风格</span></a></h3>
+<p><strong>展开风格</strong>：开发时推荐，便于维护和调试。</p>
+<p><strong>写法</strong>：</p>
+<div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre v-pre class="language-text"><code>    h1 {
+    	color: red;
+    	font-size: 40px;
+    }
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>紧凑风格</strong>：项目上线时推荐，可减小文件体积。</p>
+<p><strong>写法</strong>：<code v-pre>h1{color:red;font-size:40px;}</code></p>
 <table>
 <thead>
 <tr>
@@ -536,10 +535,15 @@ h1 {
 </table>
 <h3 id="选择器优先级" tabindex="-1"><a class="header-anchor" href="#选择器优先级"><span>选择器优先级</span></a></h3>
 <p>!important &gt; 行内样式 &gt; ID选择器 &gt; 类选择器 &gt; 元素选择器 &gt; 通配选择器 &gt; 继承的样式</p>
-<pre><code>行内样式权重大于所有选择器。
-每个选择器，都可计算出一组权重
-!important 的权重，大于行内样式，大于所有选择器
-</code></pre>
+<blockquote>
+<p>行内样式权重大于所有选择器。</p>
+</blockquote>
+<blockquote>
+<p>每个选择器，都可计算出一组权重</p>
+</blockquote>
+<blockquote>
+<p>!important 的权重，大于行内样式，大于所有选择器</p>
+</blockquote>
 <h2 id="浮动与定位" tabindex="-1"><a class="header-anchor" href="#浮动与定位"><span>浮动与定位</span></a></h2>
 <h2 id="五、盒子模型" tabindex="-1"><a class="header-anchor" href="#五、盒子模型"><span>五、盒子模型</span></a></h2>
 <h3 id="长度" tabindex="-1"><a class="header-anchor" href="#长度"><span>长度</span></a></h3>
@@ -596,9 +600,12 @@ h1 {
 </tr>
 </tbody>
 </table>
-<pre><code>行内元素无法设置宽高
-行内块可以
-</code></pre>
+<blockquote>
+<p>行内元素无法设置宽高</p>
+</blockquote>
+<blockquote>
+<p>行内块可以</p>
+</blockquote>
 <h3 id="盒子组成" tabindex="-1"><a class="header-anchor" href="#盒子组成"><span>盒子组成</span></a></h3>
 <p><img src="https://i-blog.csdnimg.cn/direct/5727d84f589f430199365b25cb9f36d8.png" alt="在这里插入图片描述"></p>
 <table>
@@ -637,11 +644,12 @@ h1 {
 </tr>
 </tbody>
 </table>
-<pre><code>上右下左
-padding不负
-margin可负
-行内margin无上下
-</code></pre>
+<blockquote>
+<p>上右下左</p>
+<p>padding不负</p>
+<p>margin可负</p>
+<p>行内margin无上下</p>
+</blockquote>
 <h3 id="overflow" tabindex="-1"><a class="header-anchor" href="#overflow"><span>overflow</span></a></h3>
 <table>
 <thead>
@@ -994,19 +1002,18 @@ margin可负
 </table>
 <p><strong>位置</strong>：
 <strong>写法</strong>：</p>
-<pre><code>&lt;style&gt;一般都放在 &lt;head&gt; 标签中
-多个 HTML 页面无法复用样式
-</code></pre>
-<p><strong>位置</strong>：
+<div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre v-pre class="language-text"><code>    &lt;style>一般都放在 &lt;head> 标签中
+    多个 HTML 页面无法复用样式
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>位置</strong>：
 <strong>写法</strong>：</p>
-<pre><code>&lt;link&gt; 标签要写在 &lt;head&gt; 标签中
-可触发浏览器的缓存机制，提高访问速度
-最推荐的使用外部样式
-</code></pre>
-<h3 id="样式优先级" tabindex="-1"><a class="header-anchor" href="#样式优先级"><span>样式优先级</span></a></h3>
+<div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre v-pre class="language-text"><code>    &lt;link> 标签要写在 &lt;head> 标签中
+    可触发浏览器的缓存机制，提高访问速度
+    最推荐的使用外部样式
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="样式优先级" tabindex="-1"><a class="header-anchor" href="#样式优先级"><span>样式优先级</span></a></h3>
 <p><strong>优先级</strong>：行内样式 &gt; 内部样式 = 外部样式</p>
-<pre><code>后面的会覆盖前面的
-</code></pre>
+<blockquote>
+<p>后面的会覆盖前面的</p>
+</blockquote>
 <table>
 <thead>
 <tr>

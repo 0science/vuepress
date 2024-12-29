@@ -218,6 +218,172 @@ obj.call({name:'李四'})
 </tr>
 </tbody>
 </table>
+<h2 id="number对象" tabindex="-1"><a class="header-anchor" href="#number对象"><span>Number对象</span></a></h2>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MAX_VALUE</td>
+<td>最大值</td>
+</tr>
+<tr>
+<td>MIN_VALUE</td>
+<td>最小值</td>
+</tr>
+<tr>
+<td>toFixed()</td>
+<td>保留小数位</td>
+</tr>
+</tbody>
+</table>
+<h2 id="date方法" tabindex="-1"><a class="header-anchor" href="#date方法"><span>date方法</span></a></h2>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>getFullYear()</td>
+<td>获取年份</td>
+</tr>
+<tr>
+<td>getMonth()</td>
+<td>获取月份</td>
+</tr>
+<tr>
+<td>getDate()</td>
+<td>获取日期</td>
+</tr>
+<tr>
+<td>getDay()</td>
+<td>获取星期</td>
+</tr>
+<tr>
+<td>getHours()</td>
+<td>获取小时</td>
+</tr>
+<tr>
+<td>getMinutes()</td>
+<td>获取分钟</td>
+</tr>
+<tr>
+<td>getSeconds()</td>
+<td>获取秒</td>
+</tr>
+<tr>
+<td>getTime()</td>
+<td>获取时间戳</td>
+</tr>
+<tr>
+<td>setFullYear()</td>
+<td>设置年份</td>
+</tr>
+<tr>
+<td>setMonth()</td>
+<td>设置月份</td>
+</tr>
+<tr>
+<td>setDate()</td>
+<td>设置日期</td>
+</tr>
+<tr>
+<td>setHours()</td>
+<td>设置小时</td>
+</tr>
+<tr>
+<td>setMinutes()</td>
+<td>设置分钟</td>
+</tr>
+<tr>
+<td>setSeconds()</td>
+<td>设置秒</td>
+</tr>
+<tr>
+<td>setTime()</td>
+<td>设置时间戳</td>
+</tr>
+</tbody>
+</table>
+<h2 id="math对象" tabindex="-1"><a class="header-anchor" href="#math对象"><span>Math对象</span></a></h2>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>random()</td>
+<td>随机数</td>
+</tr>
+<tr>
+<td>PI</td>
+<td>圆周率</td>
+</tr>
+<tr>
+<td>abs()</td>
+<td>绝对值</td>
+</tr>
+<tr>
+<td>ceil()</td>
+<td>向上取整</td>
+</tr>
+<tr>
+<td>floor()</td>
+<td>向下取整</td>
+</tr>
+<tr>
+<td>round()</td>
+<td>四舍五入</td>
+</tr>
+<tr>
+<td>max</td>
+<td>最大值</td>
+</tr>
+<tr>
+<td>min</td>
+<td>最小值</td>
+</tr>
+<tr>
+<td>pow(exp,base)</td>
+<td>指数</td>
+</tr>
+<tr>
+<td>sqrt(num)</td>
+<td>开方</td>
+</tr>
+</tbody>
+</table>
+<h2 id="错误处理" tabindex="-1"><a class="header-anchor" href="#错误处理"><span>错误处理</span></a></h2>
+<ul>
+<li>SyntaxError：语法错误</li>
+<li>ReferenceError： 引用不存在的变量</li>
+<li>TypeError：变量或参数不是预期类型</li>
+<li>RangeError：数值超出预期范围</li>
+</ul>
+<div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre v-pre class="language-text"><code>try {
+  // 可能抛出错误的代码
+} catch (error) {
+  // 错误发生时执行的代码
+  console.error('发生了一个错误:', error.message);
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>finally</p>
+<p>关闭文件流：在文件操作完成后，确保文件流被关闭。
+释放数据库连接：在数据库操作完成后，释放连接资源。
+清理内存：在处理完需要大量内存的数据后，清理不再需要的内存。
+注销事件监听器：在组件卸载时，注销所有注册的事件监听器。</p>
+<h2 id="json-1" tabindex="-1"><a class="header-anchor" href="#json-1"><span>JSON</span></a></h2>
+<p>JSON.stringify() 方法</p>
+<p>JSON.stringify() 方法用于将 JavaScript 值转换为 JSON 字符串。</p>
 </div></template>
 
 
