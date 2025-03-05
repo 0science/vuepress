@@ -1,8 +1,0 @@
-node_modules
-.cache
-.temp
-internal
-default-development
-.cache/*
-docs/.vuepress/.temp/internal
-docs/.vuepress/.cache/default-development
