@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-063ee6c4\",\"path\":\"/guide/Java/Java%E5%9F%BA%E7%A1%80.html\",\"title\":\"第一个Java程序\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"guide/Java/Java基础.md\"}")
