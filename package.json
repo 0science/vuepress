@@ -17,9 +17,11 @@
     "@vuepress/plugin-back-to-top": "^2.0.0-rc.3",
     "@vuepress/plugin-search": "^2.0.0-rc.3",
     "@vuepress/theme-default": "^2.0.0-rc.2",
+    "babel-loader": "^9.2.1",
     "node-sass": "^9.0.0",
     "sass-loader": "^14.1.0",
     "vue": "^3.4.0",
+    "vue-loader": "^17.4.2",
     "vuepress": "^2.0.0-rc.2"
   }
 }

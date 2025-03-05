@@ -43,13 +43,6 @@ export const searchIndex = [
         "slug": "_5-http",
         "link": "#_5-http",
         "children": []
-      },
-      {
-        "level": 2,
-        "title": "",
-        "slug": "",
-        "link": "#",
-        "children": []
       }
     ],
     "path": "/guide/",
@@ -60,209 +53,98 @@ export const searchIndex = [
     "title": "",
     "headers": [
       {
-        "level": 2,
-        "title": "HTML基础",
-        "slug": "html基础",
-        "link": "#html基础",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.文档基本格式",
-            "slug": "_1-文档基本格式",
-            "link": "#_1-文档基本格式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.基本概念",
-            "slug": "_2-基本概念",
-            "link": "#_2-基本概念",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.字符编码",
-            "slug": "_3-字符编码",
-            "link": "#_3-字符编码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.设置语言",
-            "slug": "_4-设置语言",
-            "link": "#_4-设置语言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.特殊字符",
-            "slug": "_5-特殊字符",
-            "link": "#_5-特殊字符",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.实体字符",
-            "slug": "_6-实体字符",
-            "link": "#_6-实体字符",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/guide/02.HTML/HTML%E5%9F%BA%E7%A1%80.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、HTML标签",
-        "slug": "一、html标签",
-        "link": "#一、html标签",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.文本标签",
-            "slug": "_1-文本标签",
-            "link": "#_1-文本标签",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.图片标签",
-            "slug": "_2-图片标签",
-            "link": "#_2-图片标签",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.链接标签",
-            "slug": "_3-链接标签",
-            "link": "#_3-链接标签",
-            "children": []
-          }
-        ]
+        "level": 3,
+        "title": "一、基础准备",
+        "slug": "一、基础准备",
+        "link": "#一、基础准备",
+        "children": []
       },
       {
-        "level": 2,
-        "title": "二、HTML元素",
-        "slug": "二、html元素",
-        "link": "#二、html元素",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.列表元素",
-            "slug": "_1-列表元素",
-            "link": "#_1-列表元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.表格元素",
-            "slug": "_2-表格元素",
-            "link": "#_2-表格元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.结构元素",
-            "slug": "_3-结构元素",
-            "link": "#_3-结构元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.分组元素",
-            "slug": "_4-分组元素",
-            "link": "#_4-分组元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.交互元素",
-            "slug": "_5-交互元素",
-            "link": "#_5-交互元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.语义元素",
-            "slug": "_6-语义元素",
-            "link": "#_6-语义元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.表单元素",
-            "slug": "_7-表单元素",
-            "link": "#_7-表单元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.多媒体元素",
-            "slug": "_8-多媒体元素",
-            "link": "#_8-多媒体元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "9.全局属性",
-            "slug": "_9-全局属性",
-            "link": "#_9-全局属性",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/guide/02.HTML/HTML%E9%AB%98%E7%BA%A7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "准备工作",
-        "slug": "准备工作",
-        "link": "#准备工作",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.安装Edge",
-            "slug": "_1-安装edge",
-            "link": "#_1-安装edge",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.安装VS Code",
-            "slug": "_2-安装vs-code",
-            "link": "#_2-安装vs-code",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.安装VS Code插件",
-            "slug": "_3-安装vs-code插件",
-            "link": "#_3-安装vs-code插件",
-            "children": []
-          }
-        ]
+        "level": 3,
+        "title": "二、核心学习内容",
+        "slug": "二、核心学习内容",
+        "link": "#二、核心学习内容",
+        "children": []
       },
       {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
+        "level": 3,
+        "title": "三、学习方法与技巧",
+        "slug": "三、学习方法与技巧",
+        "link": "#三、学习方法与技巧",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "四、学习资源推荐",
+        "slug": "四、学习资源推荐",
+        "link": "#四、学习资源推荐",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "五、避免常见误区",
+        "slug": "五、避免常见误区",
+        "link": "#五、避免常见误区",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "六、学习计划示例",
+        "slug": "六、学习计划示例",
+        "link": "#六、学习计划示例",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "七、测试与查漏补缺",
+        "slug": "七、测试与查漏补缺",
+        "link": "#七、测试与查漏补缺",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "一、选择优质教材与资源",
+        "slug": "一、选择优质教材与资源",
+        "link": "#一、选择优质教材与资源",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "二、掌握基础语法与核心概念",
+        "slug": "二、掌握基础语法与核心概念",
+        "link": "#二、掌握基础语法与核心概念",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "三、实践编程与调试技巧",
+        "slug": "三、实践编程与调试技巧",
+        "link": "#三、实践编程与调试技巧",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "四、进阶学习与项目实战",
+        "slug": "四、进阶学习与项目实战",
+        "link": "#四、进阶学习与项目实战",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "五、学习计划与习惯养成",
+        "slug": "五、学习计划与习惯养成",
+        "link": "#五、学习计划与习惯养成",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "六、避免常见误区",
+        "slug": "六、避免常见误区",
+        "link": "#六、避免常见误区",
         "children": []
       }
     ],
-    "path": "/guide/02.HTML/%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87.html",
+    "path": "/guide/%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1014,6 +896,216 @@ export const searchIndex = [
       }
     ],
     "path": "/guide/01.%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%B8%82%E5%9F%9F%E4%BA%A7%E6%95%99%E8%81%94%E5%90%88%E4%BD%93.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "HTML基础",
+        "slug": "html基础",
+        "link": "#html基础",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.文档基本格式",
+            "slug": "_1-文档基本格式",
+            "link": "#_1-文档基本格式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.基本概念",
+            "slug": "_2-基本概念",
+            "link": "#_2-基本概念",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.字符编码",
+            "slug": "_3-字符编码",
+            "link": "#_3-字符编码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.设置语言",
+            "slug": "_4-设置语言",
+            "link": "#_4-设置语言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.特殊字符",
+            "slug": "_5-特殊字符",
+            "link": "#_5-特殊字符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.实体字符",
+            "slug": "_6-实体字符",
+            "link": "#_6-实体字符",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/02.HTML/HTML%E5%9F%BA%E7%A1%80.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、HTML标签",
+        "slug": "一、html标签",
+        "link": "#一、html标签",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.文本标签",
+            "slug": "_1-文本标签",
+            "link": "#_1-文本标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.图片标签",
+            "slug": "_2-图片标签",
+            "link": "#_2-图片标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.链接标签",
+            "slug": "_3-链接标签",
+            "link": "#_3-链接标签",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、HTML元素",
+        "slug": "二、html元素",
+        "link": "#二、html元素",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.列表元素",
+            "slug": "_1-列表元素",
+            "link": "#_1-列表元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.表格元素",
+            "slug": "_2-表格元素",
+            "link": "#_2-表格元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.结构元素",
+            "slug": "_3-结构元素",
+            "link": "#_3-结构元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.分组元素",
+            "slug": "_4-分组元素",
+            "link": "#_4-分组元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.交互元素",
+            "slug": "_5-交互元素",
+            "link": "#_5-交互元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.语义元素",
+            "slug": "_6-语义元素",
+            "link": "#_6-语义元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.表单元素",
+            "slug": "_7-表单元素",
+            "link": "#_7-表单元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.多媒体元素",
+            "slug": "_8-多媒体元素",
+            "link": "#_8-多媒体元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.全局属性",
+            "slug": "_9-全局属性",
+            "link": "#_9-全局属性",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/02.HTML/HTML%E9%AB%98%E7%BA%A7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "准备工作",
+        "slug": "准备工作",
+        "link": "#准备工作",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.安装Edge",
+            "slug": "_1-安装edge",
+            "link": "#_1-安装edge",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.安装VS Code",
+            "slug": "_2-安装vs-code",
+            "link": "#_2-安装vs-code",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.安装VS Code插件",
+            "slug": "_3-安装vs-code插件",
+            "link": "#_3-安装vs-code插件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/guide/02.HTML/%E5%89%8D%E7%BD%AE%E5%87%86%E5%A4%87.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1802,773 +1894,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "服务器",
-        "slug": "服务器",
-        "link": "#服务器",
-        "children": [
-          {
-            "level": 3,
-            "title": "什么是服务器",
-            "slug": "什么是服务器",
-            "link": "#什么是服务器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "什么是客户端",
-            "slug": "什么是客户端",
-            "link": "#什么是客户端",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "URL",
-            "slug": "url",
-            "link": "#url",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/guide/04.Javascript/Ajax.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/guide/04.Javascript/BOM.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "DOM",
-        "slug": "dom",
-        "link": "#dom",
-        "children": [
-          {
-            "level": 3,
-            "title": "选择元素",
-            "slug": "选择元素",
-            "link": "#选择元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用DOM",
-            "slug": "使用dom",
-            "link": "#使用dom",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/guide/04.Javascript/DOM.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "背景转换",
-        "slug": "背景转换",
-        "link": "#背景转换",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "九九乘法表",
-        "slug": "九九乘法表",
-        "link": "#九九乘法表",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "打印金字塔",
-        "slug": "打印金字塔",
-        "link": "#打印金字塔",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "猴子选大王",
-        "slug": "猴子选大王",
-        "link": "#猴子选大王",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数组转置",
-        "slug": "数组转置",
-        "link": "#数组转置",
-        "children": []
-      }
-    ],
-    "path": "/guide/04.Javascript/Javascript%E5%AE%9E%E6%88%98.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "JavaScript入门",
-        "slug": "javascript入门",
-        "link": "#javascript入门",
-        "children": [
-          {
-            "level": 3,
-            "title": "内嵌式",
-            "slug": "内嵌式",
-            "link": "#内嵌式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "外链式",
-            "slug": "外链式",
-            "link": "#外链式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "行内式",
-            "slug": "行内式",
-            "link": "#行内式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "注释",
-            "slug": "注释",
-            "link": "#注释",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "语句",
-            "slug": "语句",
-            "link": "#语句",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "JavaScript基础",
-        "slug": "javascript基础",
-        "link": "#javascript基础",
-        "children": [
-          {
-            "level": 3,
-            "title": "基本概念",
-            "slug": "基本概念",
-            "link": "#基本概念",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "关键字 let 和 var",
-            "slug": "关键字-let-和-var",
-            "link": "#关键字-let-和-var",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "数组",
-            "slug": "数组",
-            "link": "#数组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "基本数据类型",
-            "slug": "基本数据类型",
-            "link": "#基本数据类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "模板字符串",
-            "slug": "模板字符串",
-            "link": "#模板字符串",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "数据类型转换",
-            "slug": "数据类型转换",
-            "link": "#数据类型转换",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "运算符",
-            "slug": "运算符",
-            "link": "#运算符",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "函数",
-            "slug": "函数",
-            "link": "#函数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.对象",
-            "slug": "_5-对象",
-            "link": "#_5-对象",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.事件",
-            "slug": "_6-事件",
-            "link": "#_6-事件",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/guide/04.Javascript/JavaScript%E7%BB%BC%E5%90%88.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/guide/04.Javascript/jQuery.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/guide/04.Javascript/%E4%BA%8B%E4%BB%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "作用域",
-        "slug": "作用域",
-        "link": "#作用域",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "预解析",
-        "slug": "预解析",
-        "link": "#预解析",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "变量提升",
-        "slug": "变量提升",
-        "link": "#变量提升",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "垃圾回收",
-        "slug": "垃圾回收",
-        "link": "#垃圾回收",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "匿名函数",
-        "slug": "匿名函数",
-        "link": "#匿名函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "箭头函数",
-        "slug": "箭头函数",
-        "link": "#箭头函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "回调函数",
-        "slug": "回调函数",
-        "link": "#回调函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "函数嵌套",
-        "slug": "函数嵌套",
-        "link": "#函数嵌套",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "作用域链",
-        "slug": "作用域链",
-        "link": "#作用域链",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "闭包函数",
-        "slug": "闭包函数",
-        "link": "#闭包函数",
-        "children": []
-      }
-    ],
-    "path": "/guide/04.Javascript/%E5%87%BD%E6%95%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "JavaScript是什么",
-        "slug": "javascript是什么",
-        "link": "#javascript是什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "JavaScript可以做什么",
-        "slug": "javascript可以做什么",
-        "link": "#javascript可以做什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "JavaScript分为哪个几部分",
-        "slug": "javascript分为哪个几部分",
-        "link": "#javascript分为哪个几部分",
-        "children": []
-      }
-    ],
-    "path": "/guide/04.Javascript/%E5%89%8D%E8%A8%80.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "对象",
-        "slug": "对象",
-        "link": "#对象",
-        "children": [
-          {
-            "level": 3,
-            "title": "特性",
-            "slug": "特性",
-            "link": "#特性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "定义对象",
-            "slug": "定义对象",
-            "link": "#定义对象",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "JSON",
-            "slug": "json",
-            "link": "#json",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "访问对象成员",
-            "slug": "访问对象成员",
-            "link": "#访问对象成员",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "遍历对象",
-            "slug": "遍历对象",
-            "link": "#遍历对象",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "对象是否存在",
-            "slug": "对象是否存在",
-            "link": "#对象是否存在",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "深浅拷贝",
-            "slug": "深浅拷贝",
-            "link": "#深浅拷贝",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "构造函数",
-            "slug": "构造函数",
-            "link": "#构造函数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "自定义构造函数",
-            "slug": "自定义构造函数",
-            "link": "#自定义构造函数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "class关键字",
-            "slug": "class关键字",
-            "link": "#class关键字",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "私有成员",
-            "slug": "私有成员",
-            "link": "#私有成员",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "return 关键字",
-            "slug": "return-关键字",
-            "link": "#return-关键字",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "this",
-            "slug": "this",
-            "link": "#this",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "更改this指向",
-            "slug": "更改this指向",
-            "link": "#更改this指向",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "String对象",
-            "slug": "string对象",
-            "link": "#string对象",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Number对象",
-        "slug": "number对象",
-        "link": "#number对象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "date方法",
-        "slug": "date方法",
-        "link": "#date方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Math对象",
-        "slug": "math对象",
-        "link": "#math对象",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "错误处理",
-        "slug": "错误处理",
-        "link": "#错误处理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "JSON",
-        "slug": "json-1",
-        "link": "#json-1",
-        "children": []
-      }
-    ],
-    "path": "/guide/04.Javascript/%E5%AF%B9%E8%B1%A1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.创建数组",
-        "slug": "_1-创建数组",
-        "link": "#_1-创建数组",
-        "children": [
-          {
-            "level": 3,
-            "title": "使用new Array() 创建数组",
-            "slug": "使用new-array-创建数组",
-            "link": "#使用new-array-创建数组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用 [ ] 创建数组",
-            "slug": "使用-创建数组",
-            "link": "#使用-创建数组",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2.操作数组",
-        "slug": "_2-操作数组",
-        "link": "#_2-操作数组",
-        "children": [
-          {
-            "level": 3,
-            "title": "获取数组长度",
-            "slug": "获取数组长度",
-            "link": "#获取数组长度",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "设置数组长度",
-            "slug": "设置数组长度",
-            "link": "#设置数组长度",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "遍历数组",
-            "slug": "遍历数组",
-            "link": "#遍历数组",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3.操作元素",
-        "slug": "_3-操作元素",
-        "link": "#_3-操作元素",
-        "children": [
-          {
-            "level": 3,
-            "title": "增加元素",
-            "slug": "增加元素",
-            "link": "#增加元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除元素",
-            "slug": "删除元素",
-            "link": "#删除元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "修改元素",
-            "slug": "修改元素",
-            "link": "#修改元素",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查找数组",
-            "slug": "查找数组",
-            "link": "#查找数组",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4.数组属性与方法",
-        "slug": "_4-数组属性与方法",
-        "link": "#_4-数组属性与方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.MAP集合",
-        "slug": "_5-map集合",
-        "link": "#_5-map集合",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.set集合",
-        "slug": "_6-set集合",
-        "link": "#_6-set集合",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.迭代器",
-        "slug": "_7-迭代器",
-        "link": "#_7-迭代器",
-        "children": []
-      }
-    ],
-    "path": "/guide/04.Javascript/%E6%95%B0%E7%BB%84.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "正则表达式",
-        "slug": "正则表达式",
-        "link": "#正则表达式",
-        "children": []
-      }
-    ],
-    "path": "/guide/04.Javascript/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1.变量",
-        "slug": "_1-变量",
-        "link": "#_1-变量",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2.数据类型",
-        "slug": "_2-数据类型",
-        "link": "#_2-数据类型",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "3.表达式",
-        "slug": "_3-表达式",
-        "link": "#_3-表达式",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "4.运算符",
-        "slug": "_4-运算符",
-        "link": "#_4-运算符",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "5.运算符",
-        "slug": "_5-运算符",
-        "link": "#_5-运算符",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "6.流程控制",
-        "slug": "_6-流程控制",
-        "link": "#_6-流程控制",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "基本概念",
-        "slug": "基本概念",
-        "link": "#基本概念",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "数据类型",
-        "slug": "数据类型",
-        "link": "#数据类型",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "数据类型转换",
-        "slug": "数据类型转换",
-        "link": "#数据类型转换",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "报错信息",
-        "slug": "报错信息",
-        "link": "#报错信息",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "常用语句",
-        "slug": "常用语句",
-        "link": "#常用语句",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "boolean类型转换",
-        "slug": "boolean类型转换",
-        "link": "#boolean类型转换",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "注意事项",
-        "slug": "注意事项",
-        "link": "#注意事项",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "引入",
-        "slug": "引入",
-        "link": "#引入",
-        "children": []
-      }
-    ],
-    "path": "/guide/04.Javascript/%E8%AF%AD%E6%B3%95.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "【私有云】 Windows IIS搭建webdav服务实现公网文件共享「内网穿透」",
     "headers": [
       {
@@ -2731,6 +2056,1699 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/guide/06.Node/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "服务器",
+        "slug": "服务器",
+        "link": "#服务器",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么是服务器",
+            "slug": "什么是服务器",
+            "link": "#什么是服务器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "什么是客户端",
+            "slug": "什么是客户端",
+            "link": "#什么是客户端",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "URL",
+            "slug": "url",
+            "link": "#url",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/04.Javascript/Ajax.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "BOM",
+    "headers": [
+      {
+        "level": 2,
+        "title": "BOM对象",
+        "slug": "bom对象",
+        "link": "#bom对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "window对象",
+        "slug": "window对象",
+        "link": "#window对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "定时器",
+        "slug": "定时器",
+        "link": "#定时器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "location对象",
+        "slug": "location对象",
+        "link": "#location对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "history对象",
+        "slug": "history对象",
+        "link": "#history对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "navigator对象",
+        "slug": "navigator对象",
+        "link": "#navigator对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "screen对象",
+        "slug": "screen对象",
+        "link": "#screen对象",
+        "children": []
+      }
+    ],
+    "path": "/guide/04.Javascript/BOM.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "DOM",
+        "slug": "dom",
+        "link": "#dom",
+        "children": [
+          {
+            "level": 3,
+            "title": "选择元素",
+            "slug": "选择元素",
+            "link": "#选择元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用DOM",
+            "slug": "使用dom",
+            "link": "#使用dom",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/04.Javascript/DOM.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "入门",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、简介",
+        "slug": "一、简介",
+        "link": "#一、简介",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.定义",
+            "slug": "_1-定义",
+            "link": "#_1-定义",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.作用",
+            "slug": "_2-作用",
+            "link": "#_2-作用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.分类",
+            "slug": "_3-分类",
+            "link": "#_3-分类",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、引入方式",
+        "slug": "二、引入方式",
+        "link": "#二、引入方式",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.内嵌式",
+            "slug": "_1-内嵌式",
+            "link": "#_1-内嵌式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.外链式",
+            "slug": "_2-外链式",
+            "link": "#_2-外链式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.行内式",
+            "slug": "_3-行内式",
+            "link": "#_3-行内式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "一、变量",
+        "slug": "一、变量",
+        "link": "#一、变量",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.定义",
+            "slug": "_1-定义-1",
+            "link": "#_1-定义-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.标识符",
+            "slug": "_2-标识符",
+            "link": "#_2-标识符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.关键字",
+            "slug": "_3-关键字",
+            "link": "#_3-关键字",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、数据类型",
+        "slug": "二、数据类型",
+        "link": "#二、数据类型",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.基本数据类型",
+            "slug": "_1-基本数据类型",
+            "link": "#_1-基本数据类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.数据类型检测",
+            "slug": "_2-数据类型检测",
+            "link": "#_2-数据类型检测",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.数据类型转换",
+            "slug": "_3-数据类型转换",
+            "link": "#_3-数据类型转换",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三、运算符",
+        "slug": "三、运算符",
+        "link": "#三、运算符",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.算数运算符",
+            "slug": "_1-算数运算符",
+            "link": "#_1-算数运算符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.字符串运算符",
+            "slug": "_2-字符串运算符",
+            "link": "#_2-字符串运算符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.赋值运算符",
+            "slug": "_3-赋值运算符",
+            "link": "#_3-赋值运算符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.比较运算符",
+            "slug": "_4-比较运算符",
+            "link": "#_4-比较运算符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.逻辑运算符",
+            "slug": "_5-逻辑运算符",
+            "link": "#_5-逻辑运算符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.三元运算符",
+            "slug": "_6-三元运算符",
+            "link": "#_6-三元运算符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.位运算符",
+            "slug": "_7-位运算符",
+            "link": "#_7-位运算符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.运算符优先级",
+            "slug": "_8-运算符优先级",
+            "link": "#_8-运算符优先级",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四、流程控制",
+        "slug": "四、流程控制",
+        "link": "#四、流程控制",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.if语句",
+            "slug": "_1-if语句",
+            "link": "#_1-if语句",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.if···else语句",
+            "slug": "_2-if···else语句",
+            "link": "#_2-if···else语句",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.switch语句",
+            "slug": "_3-switch语句",
+            "link": "#_3-switch语句",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.while循环",
+            "slug": "_4-while循环",
+            "link": "#_4-while循环",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.do···while循环",
+            "slug": "_5-do···while循环",
+            "link": "#_5-do···while循环",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.for循环",
+            "slug": "_6-for循环",
+            "link": "#_6-for循环",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.循环嵌套",
+            "slug": "_7-循环嵌套",
+            "link": "#_7-循环嵌套",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "一、基本操作",
+        "slug": "一、基本操作",
+        "link": "#一、基本操作",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.数组定义",
+            "slug": "_1-数组定义",
+            "link": "#_1-数组定义",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.创建数组",
+            "slug": "_2-创建数组",
+            "link": "#_2-创建数组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.获取长度",
+            "slug": "_3-获取长度",
+            "link": "#_3-获取长度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.遍历数组",
+            "slug": "_4-遍历数组",
+            "link": "#_4-遍历数组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.增加元素",
+            "slug": "_5-增加元素",
+            "link": "#_5-增加元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.删除元素",
+            "slug": "_6-删除元素",
+            "link": "#_6-删除元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.修改元素",
+            "slug": "_7-修改元素",
+            "link": "#_7-修改元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.查找数组",
+            "slug": "_8-查找数组",
+            "link": "#_8-查找数组",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、二维数组",
+        "slug": "二、二维数组",
+        "link": "#二、二维数组",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.创建数组",
+            "slug": "_1-创建数组",
+            "link": "#_1-创建数组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.遍历数组",
+            "slug": "_2-遍历数组",
+            "link": "#_2-遍历数组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.数组转置",
+            "slug": "_3-数组转置",
+            "link": "#_3-数组转置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三、数组排序",
+        "slug": "三、数组排序",
+        "link": "#三、数组排序",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.冒泡排序",
+            "slug": "_1-冒泡排序",
+            "link": "#_1-冒泡排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.插入排序",
+            "slug": "_2-插入排序",
+            "link": "#_2-插入排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.快速排序",
+            "slug": "_3-快速排序",
+            "link": "#_3-快速排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.选择排序",
+            "slug": "_4-选择排序",
+            "link": "#_4-选择排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.希尔排序",
+            "slug": "_5-希尔排序",
+            "link": "#_5-希尔排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.归并排序",
+            "slug": "_6-归并排序",
+            "link": "#_6-归并排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.堆排序",
+            "slug": "_7-堆排序",
+            "link": "#_7-堆排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "8.桶排序",
+            "slug": "_8-桶排序",
+            "link": "#_8-桶排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "10.计数排序",
+            "slug": "_10-计数排序",
+            "link": "#_10-计数排序",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四、数组方法",
+        "slug": "四、数组方法",
+        "link": "#四、数组方法",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.栈和队列",
+            "slug": "_1-栈和队列",
+            "link": "#_1-栈和队列",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.检索方法",
+            "slug": "_2-检索方法",
+            "link": "#_2-检索方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.数组转字符串",
+            "slug": "_3-数组转字符串",
+            "link": "#_3-数组转字符串",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.数据过滤",
+            "slug": "_4-数据过滤",
+            "link": "#_4-数据过滤",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.其他方法",
+            "slug": "_5-其他方法",
+            "link": "#_5-其他方法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "一、定义与调用",
+        "slug": "一、定义与调用",
+        "link": "#一、定义与调用",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.定义",
+            "slug": "_1-定义-2",
+            "link": "#_1-定义-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.参数",
+            "slug": "_2-参数",
+            "link": "#_2-参数",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、作用域",
+        "slug": "二、作用域",
+        "link": "#二、作用域",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.全局变量",
+            "slug": "_1-全局变量",
+            "link": "#_1-全局变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.局部变量",
+            "slug": "_2-局部变量",
+            "link": "#_2-局部变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.块级变量",
+            "slug": "_3-块级变量",
+            "link": "#_3-块级变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.垃圾回收",
+            "slug": "_4-垃圾回收",
+            "link": "#_4-垃圾回收",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "匿名函数",
+        "slug": "匿名函数",
+        "link": "#匿名函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "箭头函数",
+        "slug": "箭头函数",
+        "link": "#箭头函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "回调函数",
+        "slug": "回调函数",
+        "link": "#回调函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "函数嵌套",
+        "slug": "函数嵌套",
+        "link": "#函数嵌套",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "作用域链",
+        "slug": "作用域链",
+        "link": "#作用域链",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "闭包函数",
+        "slug": "闭包函数",
+        "link": "#闭包函数",
+        "children": [
+          {
+            "level": 3,
+            "title": "特性",
+            "slug": "特性",
+            "link": "#特性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "定义对象",
+            "slug": "定义对象",
+            "link": "#定义对象",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "JSON",
+            "slug": "json",
+            "link": "#json",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "访问对象成员",
+            "slug": "访问对象成员",
+            "link": "#访问对象成员",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "遍历对象",
+            "slug": "遍历对象",
+            "link": "#遍历对象",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "对象是否存在",
+            "slug": "对象是否存在",
+            "link": "#对象是否存在",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "深浅拷贝",
+            "slug": "深浅拷贝",
+            "link": "#深浅拷贝",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "构造函数",
+            "slug": "构造函数",
+            "link": "#构造函数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自定义构造函数",
+            "slug": "自定义构造函数",
+            "link": "#自定义构造函数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "class关键字",
+            "slug": "class关键字",
+            "link": "#class关键字",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "私有成员",
+            "slug": "私有成员",
+            "link": "#私有成员",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "return 关键字",
+            "slug": "return-关键字",
+            "link": "#return-关键字",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "this",
+            "slug": "this",
+            "link": "#this",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更改this指向",
+            "slug": "更改this指向",
+            "link": "#更改this指向",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "String对象",
+            "slug": "string对象",
+            "link": "#string对象",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Number对象",
+        "slug": "number对象",
+        "link": "#number对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "date方法",
+        "slug": "date方法",
+        "link": "#date方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Math对象",
+        "slug": "math对象",
+        "link": "#math对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "错误处理",
+        "slug": "错误处理",
+        "link": "#错误处理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "报错信息",
+        "slug": "报错信息",
+        "link": "#报错信息",
+        "children": [
+          {
+            "level": 3,
+            "title": "语法错误",
+            "slug": "语法错误",
+            "link": "#语法错误",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "运行错误",
+            "slug": "运行错误",
+            "link": "#运行错误",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "常用语句",
+        "slug": "常用语句",
+        "link": "#常用语句",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JSON",
+        "slug": "json-1",
+        "link": "#json-1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "原型和继承",
+        "slug": "原型和继承",
+        "link": "#原型和继承",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "BOM对象",
+        "slug": "bom对象",
+        "link": "#bom对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "window对象",
+        "slug": "window对象",
+        "link": "#window对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "定时器",
+        "slug": "定时器",
+        "link": "#定时器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "location对象",
+        "slug": "location对象",
+        "link": "#location对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "history对象",
+        "slug": "history对象",
+        "link": "#history对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "navigator对象",
+        "slug": "navigator对象",
+        "link": "#navigator对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "screen对象",
+        "slug": "screen对象",
+        "link": "#screen对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "DOM",
+        "slug": "dom",
+        "link": "#dom",
+        "children": [
+          {
+            "level": 3,
+            "title": "选择元素",
+            "slug": "选择元素",
+            "link": "#选择元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用DOM",
+            "slug": "使用dom",
+            "link": "#使用dom",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/04.Javascript/JavaScript.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、入门",
+        "slug": "一、入门",
+        "link": "#一、入门",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.输出Hello World",
+            "slug": "_1-输出hello-world",
+            "link": "#_1-输出hello-world",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.背景转换",
+            "slug": "_2-背景转换",
+            "link": "#_2-背景转换",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、语法",
+        "slug": "二、语法",
+        "link": "#二、语法",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.九九乘法表",
+            "slug": "_1-九九乘法表",
+            "link": "#_1-九九乘法表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.打印金字塔",
+            "slug": "_2-打印金字塔",
+            "link": "#_2-打印金字塔",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三、数组",
+        "slug": "三、数组",
+        "link": "#三、数组",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.查找最值",
+            "slug": "_1-查找最值",
+            "link": "#_1-查找最值",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.数组转置",
+            "slug": "_2-数组转置",
+            "link": "#_2-数组转置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.栈和队列",
+            "slug": "_3-栈和队列",
+            "link": "#_3-栈和队列",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.冒泡排序",
+            "slug": "_4-冒泡排序",
+            "link": "#_4-冒泡排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.插入排序",
+            "slug": "_5-插入排序",
+            "link": "#_5-插入排序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.猴子选大王",
+            "slug": "_6-猴子选大王",
+            "link": "#_6-猴子选大王",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.联级选择器",
+            "slug": "_7-联级选择器",
+            "link": "#_7-联级选择器",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四、函数",
+        "slug": "四、函数",
+        "link": "#四、函数",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.大小写转换",
+            "slug": "_1-大小写转换",
+            "link": "#_1-大小写转换",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/04.Javascript/Javascript%E5%AE%9E%E6%88%98.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/guide/04.Javascript/jQuery.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/guide/04.Javascript/%E4%BA%8B%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "函数",
+    "headers": [
+      {
+        "level": 2,
+        "title": "定义函数",
+        "slug": "定义函数",
+        "link": "#定义函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参数设置",
+        "slug": "参数设置",
+        "link": "#参数设置",
+        "children": [
+          {
+            "level": 3,
+            "title": "剩余参数",
+            "slug": "剩余参数",
+            "link": "#剩余参数",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "作用域",
+        "slug": "作用域",
+        "link": "#作用域",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "预解析",
+        "slug": "预解析",
+        "link": "#预解析",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "变量提升",
+        "slug": "变量提升",
+        "link": "#变量提升",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "垃圾回收",
+        "slug": "垃圾回收",
+        "link": "#垃圾回收",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "匿名函数",
+        "slug": "匿名函数",
+        "link": "#匿名函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "箭头函数",
+        "slug": "箭头函数",
+        "link": "#箭头函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "回调函数",
+        "slug": "回调函数",
+        "link": "#回调函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "函数嵌套",
+        "slug": "函数嵌套",
+        "link": "#函数嵌套",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "作用域链",
+        "slug": "作用域链",
+        "link": "#作用域链",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "闭包函数",
+        "slug": "闭包函数",
+        "link": "#闭包函数",
+        "children": []
+      }
+    ],
+    "path": "/guide/04.Javascript/%E5%87%BD%E6%95%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "JavaScript是什么",
+        "slug": "javascript是什么",
+        "link": "#javascript是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JavaScript可以做什么",
+        "slug": "javascript可以做什么",
+        "link": "#javascript可以做什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JavaScript分为哪个几部分",
+        "slug": "javascript分为哪个几部分",
+        "link": "#javascript分为哪个几部分",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JavaScript的三种引入方式",
+        "slug": "javascript的三种引入方式",
+        "link": "#javascript的三种引入方式",
+        "children": [
+          {
+            "level": 3,
+            "title": "内嵌式",
+            "slug": "内嵌式",
+            "link": "#内嵌式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "外链式",
+            "slug": "外链式",
+            "link": "#外链式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "行内式",
+            "slug": "行内式",
+            "link": "#行内式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "JavaScript",
+        "slug": "javascript",
+        "link": "#javascript",
+        "children": []
+      }
+    ],
+    "path": "/guide/04.Javascript/%E5%89%8D%E8%A8%80.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "对象",
+    "headers": [
+      {
+        "level": 3,
+        "title": "特性",
+        "slug": "特性",
+        "link": "#特性",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "定义对象",
+        "slug": "定义对象",
+        "link": "#定义对象",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "JSON",
+        "slug": "json",
+        "link": "#json",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "访问对象成员",
+        "slug": "访问对象成员",
+        "link": "#访问对象成员",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "遍历对象",
+        "slug": "遍历对象",
+        "link": "#遍历对象",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "对象是否存在",
+        "slug": "对象是否存在",
+        "link": "#对象是否存在",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "深浅拷贝",
+        "slug": "深浅拷贝",
+        "link": "#深浅拷贝",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "构造函数",
+        "slug": "构造函数",
+        "link": "#构造函数",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "自定义构造函数",
+        "slug": "自定义构造函数",
+        "link": "#自定义构造函数",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "class关键字",
+        "slug": "class关键字",
+        "link": "#class关键字",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "私有成员",
+        "slug": "私有成员",
+        "link": "#私有成员",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "return 关键字",
+        "slug": "return-关键字",
+        "link": "#return-关键字",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "this",
+        "slug": "this",
+        "link": "#this",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "更改this指向",
+        "slug": "更改this指向",
+        "link": "#更改this指向",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "String对象",
+        "slug": "string对象",
+        "link": "#string对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Number对象",
+        "slug": "number对象",
+        "link": "#number对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "date方法",
+        "slug": "date方法",
+        "link": "#date方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Math对象",
+        "slug": "math对象",
+        "link": "#math对象",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "错误处理",
+        "slug": "错误处理",
+        "link": "#错误处理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "JSON",
+        "slug": "json-1",
+        "link": "#json-1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "原型和继承",
+        "slug": "原型和继承",
+        "link": "#原型和继承",
+        "children": []
+      }
+    ],
+    "path": "/guide/04.Javascript/%E5%AF%B9%E8%B1%A1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "数组",
+    "headers": [
+      {
+        "level": 2,
+        "title": "定义",
+        "slug": "定义",
+        "link": "#定义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.创建数组",
+        "slug": "_1-创建数组",
+        "link": "#_1-创建数组",
+        "children": [
+          {
+            "level": 3,
+            "title": "使用new Array() 创建数组",
+            "slug": "使用new-array-创建数组",
+            "link": "#使用new-array-创建数组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用 [ ] 创建数组",
+            "slug": "使用-创建数组",
+            "link": "#使用-创建数组",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.操作数组",
+        "slug": "_2-操作数组",
+        "link": "#_2-操作数组",
+        "children": [
+          {
+            "level": 3,
+            "title": "获取数组长度",
+            "slug": "获取数组长度",
+            "link": "#获取数组长度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设置数组长度",
+            "slug": "设置数组长度",
+            "link": "#设置数组长度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "遍历数组",
+            "slug": "遍历数组",
+            "link": "#遍历数组",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.操作元素",
+        "slug": "_3-操作元素",
+        "link": "#_3-操作元素",
+        "children": [
+          {
+            "level": 3,
+            "title": "增加元素",
+            "slug": "增加元素",
+            "link": "#增加元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除元素",
+            "slug": "删除元素",
+            "link": "#删除元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "修改元素",
+            "slug": "修改元素",
+            "link": "#修改元素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查找数组",
+            "slug": "查找数组",
+            "link": "#查找数组",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4.数组属性与方法",
+        "slug": "_4-数组属性与方法",
+        "link": "#_4-数组属性与方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.MAP集合",
+        "slug": "_5-map集合",
+        "link": "#_5-map集合",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.set集合",
+        "slug": "_6-set集合",
+        "link": "#_6-set集合",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.迭代器",
+        "slug": "_7-迭代器",
+        "link": "#_7-迭代器",
+        "children": []
+      }
+    ],
+    "path": "/guide/04.Javascript/%E6%95%B0%E7%BB%84.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "正则表达式",
+        "slug": "正则表达式",
+        "link": "#正则表达式",
+        "children": []
+      }
+    ],
+    "path": "/guide/04.Javascript/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "语法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.变量",
+        "slug": "_1-变量",
+        "link": "#_1-变量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.数据类型",
+        "slug": "_2-数据类型",
+        "link": "#_2-数据类型",
+        "children": [
+          {
+            "level": 3,
+            "title": "关键字 let 和 var",
+            "slug": "关键字-let-和-var",
+            "link": "#关键字-let-和-var",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3.表达式",
+        "slug": "_3-表达式",
+        "link": "#_3-表达式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.运算符",
+        "slug": "_4-运算符",
+        "link": "#_4-运算符",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.运算符",
+        "slug": "_5-运算符",
+        "link": "#_5-运算符",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.流程控制",
+        "slug": "_6-流程控制",
+        "link": "#_6-流程控制",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基本概念",
+        "slug": "基本概念",
+        "link": "#基本概念",
+        "children": [
+          {
+            "level": 3,
+            "title": "数字型-算数优先级",
+            "slug": "数字型-算数优先级",
+            "link": "#数字型-算数优先级",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "字符型-模板字符串",
+            "slug": "字符型-模板字符串",
+            "link": "#字符型-模板字符串",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "undefined和null的区别",
+            "slug": "undefined和null的区别",
+            "link": "#undefined和null的区别",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "检查数据类型",
+            "slug": "检查数据类型",
+            "link": "#检查数据类型",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "数据类型转换",
+        "slug": "数据类型转换",
+        "link": "#数据类型转换",
+        "children": [
+          {
+            "level": 3,
+            "title": "隐式转换",
+            "slug": "隐式转换",
+            "link": "#隐式转换",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "显示转换",
+            "slug": "显示转换",
+            "link": "#显示转换",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "报错信息",
+        "slug": "报错信息",
+        "link": "#报错信息",
+        "children": [
+          {
+            "level": 3,
+            "title": "语法错误",
+            "slug": "语法错误",
+            "link": "#语法错误",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "运行错误",
+            "slug": "运行错误",
+            "link": "#运行错误",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "常用语句",
+        "slug": "常用语句",
+        "link": "#常用语句",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "boolean类型转换",
+        "slug": "boolean类型转换",
+        "link": "#boolean类型转换",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "注意事项",
+        "slug": "注意事项",
+        "link": "#注意事项",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "引入",
+        "slug": "引入",
+        "link": "#引入",
+        "children": []
+      }
+    ],
+    "path": "/guide/04.Javascript/%E8%AF%AD%E6%B3%95.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -5782,27 +6800,149 @@ export const searchIndex = [
     "title": "",
     "headers": [
       {
-        "level": 2,
-        "title": "第一题：输出无重复的三位数",
-        "slug": "第一题-输出无重复的三位数",
-        "link": "#第一题-输出无重复的三位数",
+        "level": 3,
+        "title": "一、系统设计",
+        "slug": "一、系统设计",
+        "link": "#一、系统设计",
         "children": []
       },
       {
-        "level": 2,
-        "title": "第二题：输出杨辉三角",
-        "slug": "第二题-输出杨辉三角",
-        "link": "#第二题-输出杨辉三角",
+        "level": 3,
+        "title": "二、代码实现（核心代码示例）",
+        "slug": "二、代码实现-核心代码示例",
+        "link": "#二、代码实现-核心代码示例",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "三、关键难点解析",
+        "slug": "三、关键难点解析",
+        "link": "#三、关键难点解析",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "四、完整项目结构",
+        "slug": "四、完整项目结构",
+        "link": "#四、完整项目结构",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "五、扩展功能实现思路",
+        "slug": "五、扩展功能实现思路",
+        "link": "#五、扩展功能实现思路",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "六、调试与测试",
+        "slug": "六、调试与测试",
+        "link": "#六、调试与测试",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "七、项目总结",
+        "slug": "七、项目总结",
+        "link": "#七、项目总结",
         "children": []
       }
     ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98.html",
+    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98-%E5%AD%A6%E7%94%9F%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "二、数据类型",
+    "title": "一、入门",
     "headers": [
+      {
+        "level": 2,
+        "title": "1. 程序语言",
+        "slug": "_1-程序语言",
+        "link": "#_1-程序语言",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 机器语言",
+            "slug": "_1-1-机器语言",
+            "link": "#_1-1-机器语言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 汇编语言",
+            "slug": "_1-2-汇编语言",
+            "link": "#_1-2-汇编语言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 高级语言",
+            "slug": "_1-3-高级语言",
+            "link": "#_1-3-高级语言",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 特点",
+        "slug": "_2-特点",
+        "link": "#_2-特点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 应用",
+        "slug": "_3-应用",
+        "link": "#_3-应用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. 集成开发环境",
+        "slug": "_4-集成开发环境",
+        "link": "#_4-集成开发环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. 第一个C程序",
+        "slug": "_5-第一个c程序",
+        "link": "#_5-第一个c程序",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.2 calculate.c",
+            "slug": "_5-2-calculate-c",
+            "link": "#_5-2-calculate-c",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6. 编译过程",
+        "slug": "_6-编译过程",
+        "link": "#_6-编译过程",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.1 编译步骤",
+            "slug": "_6-1-编译步骤",
+            "link": "#_6-1-编译步骤",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 编译指令",
+            "slug": "_6-2-编译指令",
+            "link": "#_6-2-编译指令",
+            "children": []
+          }
+        ]
+      },
       {
         "level": 2,
         "title": "5.代码分析",
@@ -5813,8 +6953,8 @@ export const searchIndex = [
       {
         "level": 2,
         "title": "6.编译过程",
-        "slug": "_6-编译过程",
-        "link": "#_6-编译过程",
+        "slug": "_6-编译过程-1",
+        "link": "#_6-编译过程-1",
         "children": [
           {
             "level": 3,
@@ -6610,232 +7750,196 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "C语言",
+    "title": "初级阶段",
     "headers": [
       {
         "level": 2,
-        "title": "一、入门介绍",
-        "slug": "一、入门介绍",
-        "link": "#一、入门介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、基本语法",
-        "slug": "二、基本语法",
-        "link": "#二、基本语法",
+        "title": "一、初识",
+        "slug": "一、初识",
+        "link": "#一、初识",
         "children": [
           {
             "level": 3,
-            "title": "数据类型",
-            "slug": "数据类型",
-            "link": "#数据类型",
+            "title": "1.职业发展",
+            "slug": "_1-职业发展",
+            "link": "#_1-职业发展",
             "children": []
           },
           {
             "level": 3,
-            "title": "运算符和表达式",
-            "slug": "运算符和表达式",
-            "link": "#运算符和表达式",
+            "title": "2.Windows开发环境",
+            "slug": "_2-windows开发环境",
+            "link": "#_2-windows开发环境",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.编译调试",
+            "slug": "_3-编译调试",
+            "link": "#_3-编译调试",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "三、流程控制",
-        "slug": "三、流程控制",
-        "link": "#三、流程控制",
+        "title": "二、数据类型、输入输出",
+        "slug": "二、数据类型、输入输出",
+        "link": "#二、数据类型、输入输出",
         "children": [
           {
             "level": 3,
-            "title": "输入输出",
-            "slug": "输入输出",
-            "link": "#输入输出",
+            "title": "1.数据类型",
+            "slug": "_1-数据类型",
+            "link": "#_1-数据类型",
             "children": []
           },
           {
             "level": 3,
-            "title": "选择语句",
-            "slug": "选择语句",
-            "link": "#选择语句",
+            "title": "2.整型",
+            "slug": "_2-整型",
+            "link": "#_2-整型",
             "children": []
           },
           {
             "level": 3,
-            "title": "循环语句",
-            "slug": "循环语句",
-            "link": "#循环语句",
+            "title": "3.浮点型",
+            "slug": "_3-浮点型",
+            "link": "#_3-浮点型",
             "children": []
           },
           {
             "level": 3,
-            "title": "跳转语句",
-            "slug": "跳转语句",
-            "link": "#跳转语句",
+            "title": "4.字符型",
+            "slug": "_4-字符型",
+            "link": "#_4-字符型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.混合运算",
+            "slug": "_5-混合运算",
+            "link": "#_5-混合运算",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "数组",
-        "slug": "数组",
-        "link": "#数组",
+        "title": "三、运算符表达式",
+        "slug": "三、运算符表达式",
+        "link": "#三、运算符表达式",
         "children": []
       },
       {
         "level": 2,
-        "title": "函数",
-        "slug": "函数",
-        "link": "#函数",
+        "title": "1.算数运算符",
+        "slug": "_1-算数运算符",
+        "link": "#_1-算数运算符",
         "children": []
       },
       {
         "level": 2,
-        "title": "指针",
-        "slug": "指针",
-        "link": "#指针",
+        "title": "2.关系运算符",
+        "slug": "_2-关系运算符",
+        "link": "#_2-关系运算符",
         "children": []
       },
       {
         "level": 2,
-        "title": "结构体和共用体",
-        "slug": "结构体和共用体",
-        "link": "#结构体和共用体",
+        "title": "3.逻辑运算符",
+        "slug": "_3-逻辑运算符",
+        "link": "#_3-逻辑运算符",
         "children": []
       },
       {
         "level": 2,
-        "title": "位运算",
-        "slug": "位运算",
-        "link": "#位运算",
+        "title": "4.位运算符",
+        "slug": "_4-位运算符",
+        "link": "#_4-位运算符",
         "children": []
       },
       {
         "level": 2,
-        "title": "预处理",
-        "slug": "预处理",
-        "link": "#预处理",
+        "title": "5.赋值运算符",
+        "slug": "_5-赋值运算符",
+        "link": "#_5-赋值运算符",
         "children": []
       },
       {
         "level": 2,
-        "title": "文件",
-        "slug": "文件",
-        "link": "#文件",
+        "title": "四、选择和循环",
+        "slug": "四、选择和循环",
+        "link": "#四、选择和循环",
         "children": []
       },
       {
         "level": 2,
-        "title": "内存管理",
-        "slug": "内存管理",
-        "link": "#内存管理",
+        "title": "五、数组",
+        "slug": "五、数组",
+        "link": "#五、数组",
         "children": []
       },
       {
         "level": 2,
-        "title": "网络套接字",
-        "slug": "网络套接字",
-        "link": "#网络套接字",
+        "title": "六、指针",
+        "slug": "六、指针",
+        "link": "#六、指针",
         "children": []
       },
       {
         "level": 2,
-        "title": "参考手册",
-        "slug": "参考手册",
-        "link": "#参考手册",
+        "title": "七、函数",
+        "slug": "七、函数",
+        "link": "#七、函数",
         "children": []
       },
       {
         "level": 2,
-        "title": "实战项目",
-        "slug": "实战项目",
-        "link": "#实战项目",
+        "title": "八、结构体",
+        "slug": "八、结构体",
+        "link": "#八、结构体",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一、入门",
+        "slug": "一、入门",
+        "link": "#一、入门",
         "children": [
           {
             "level": 3,
-            "title": "学生信息管理系统",
-            "slug": "学生信息管理系统",
-            "link": "#学生信息管理系统",
+            "title": "输出hello world",
+            "slug": "输出hello-world",
+            "link": "#输出hello-world",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、语法",
+        "slug": "二、语法",
+        "link": "#二、语法",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.定义符号常量",
+            "slug": "_1-定义符号常量",
+            "link": "#_1-定义符号常量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.强制类型转换",
+            "slug": "_2-强制类型转换",
+            "link": "#_2-强制类型转换",
             "children": []
           }
         ]
       }
     ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/reade.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "第一个C程序",
-        "slug": "第一个c程序",
-        "link": "#第一个c程序",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "",
-        "slug": "",
-        "link": "#",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.程序语言",
-        "slug": "_1-程序语言",
-        "link": "#_1-程序语言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.特点",
-        "slug": "_2-特点",
-        "link": "#_2-特点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.应用",
-        "slug": "_3-应用",
-        "link": "#_3-应用",
-        "children": []
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/%E4%BB%8B%E7%BB%8D.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 3,
-        "title": "4.集成开发环境",
-        "slug": "_4-集成开发环境",
-        "link": "#_4-集成开发环境",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "6.1 编译步骤",
-        "slug": "_6-1-编译步骤",
-        "link": "#_6-1-编译步骤",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "6.2 编译指令",
-        "slug": "_6-2-编译指令",
-        "link": "#_6-2-编译指令",
-        "children": []
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.html",
+    "path": "/guide/C%E8%AF%AD%E8%A8%80/%E7%8E%8B%E9%81%93C%E8%AF%AD%E8%A8%80.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -7435,65 +8539,57 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [],
-    "path": "/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/1.%E7%BB%AA%E8%AE%BA.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/2.%E7%BA%BF%E6%80%A7%E8%A1%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
+    "title": "绪论",
     "headers": [
       {
         "level": 2,
-        "title": "一、绪论",
-        "slug": "一、绪论",
-        "link": "#一、绪论",
+        "title": "一、基本概念",
+        "slug": "一、基本概念",
+        "link": "#一、基本概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、算法",
+        "slug": "二、算法",
+        "link": "#二、算法",
         "children": [
           {
             "level": 3,
-            "title": "基本概念",
-            "slug": "基本概念",
-            "link": "#基本概念",
+            "title": "1.定义",
+            "slug": "_1-定义",
+            "link": "#_1-定义",
             "children": []
           },
           {
             "level": 3,
-            "title": "算法",
-            "slug": "算法",
-            "link": "#算法",
+            "title": "2.算法的特性",
+            "slug": "_2-算法的特性",
+            "link": "#_2-算法的特性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.算法的要求",
+            "slug": "_3-算法的要求",
+            "link": "#_3-算法的要求",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "二、线性表",
-        "slug": "二、线性表",
-        "link": "#二、线性表",
-        "children": [
-          {
-            "level": 3,
-            "title": "基本概念",
-            "slug": "基本概念-1",
-            "link": "#基本概念-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "基本操作",
-            "slug": "基本操作",
-            "link": "#基本操作",
-            "children": []
-          }
-        ]
+        "title": "一、基本概念",
+        "slug": "一、基本概念-1",
+        "link": "#一、基本概念-1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、基本操作",
+        "slug": "二、基本操作",
+        "link": "#二、基本操作",
+        "children": []
       },
       {
         "level": 2,
@@ -7504,15 +8600,36 @@ export const searchIndex = [
           {
             "level": 3,
             "title": "基本概念",
-            "slug": "基本概念-2",
-            "link": "#基本概念-2",
+            "slug": "基本概念",
+            "link": "#基本概念",
             "children": []
           },
           {
             "level": 3,
             "title": "基本操作",
-            "slug": "基本操作-1",
-            "link": "#基本操作-1",
+            "slug": "基本操作",
+            "link": "#基本操作",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "读取",
+            "slug": "读取",
+            "link": "#读取",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "插入",
+            "slug": "插入",
+            "link": "#插入",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除",
+            "slug": "删除",
+            "link": "#删除",
             "children": []
           }
         ]
@@ -7526,15 +8643,29 @@ export const searchIndex = [
           {
             "level": 3,
             "title": "基本概念",
-            "slug": "基本概念-3",
-            "link": "#基本概念-3",
+            "slug": "基本概念-1",
+            "link": "#基本概念-1",
             "children": []
           },
           {
             "level": 3,
             "title": "基本操作",
-            "slug": "基本操作-2",
-            "link": "#基本操作-2",
+            "slug": "基本操作-1",
+            "link": "#基本操作-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "整表创建",
+            "slug": "整表创建",
+            "link": "#整表创建",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "整表删除",
+            "slug": "整表删除",
+            "link": "#整表删除",
             "children": []
           }
         ]
@@ -7548,8 +8679,30 @@ export const searchIndex = [
           {
             "level": 3,
             "title": "基本概念",
-            "slug": "基本概念-4",
-            "link": "#基本概念-4",
+            "slug": "基本概念-2",
+            "link": "#基本概念-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "基本操作",
+            "slug": "基本操作-2",
+            "link": "#基本操作-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "六、循环链表",
+        "slug": "六、循环链表",
+        "link": "#六、循环链表",
+        "children": [
+          {
+            "level": 3,
+            "title": "基本概念",
+            "slug": "基本概念-3",
+            "link": "#基本概念-3",
             "children": []
           },
           {
@@ -7563,15 +8716,15 @@ export const searchIndex = [
       },
       {
         "level": 2,
-        "title": "循环链表",
-        "slug": "循环链表",
-        "link": "#循环链表",
+        "title": "七、双向链表",
+        "slug": "七、双向链表",
+        "link": "#七、双向链表",
         "children": [
           {
             "level": 3,
             "title": "基本概念",
-            "slug": "基本概念-5",
-            "link": "#基本概念-5",
+            "slug": "基本概念-4",
+            "link": "#基本概念-4",
             "children": []
           },
           {
@@ -7585,9 +8738,108 @@ export const searchIndex = [
       },
       {
         "level": 2,
-        "title": "双向链表",
-        "slug": "双向链表",
-        "link": "#双向链表",
+        "title": "一、栈",
+        "slug": "一、栈",
+        "link": "#一、栈",
+        "children": [
+          {
+            "level": 3,
+            "title": "基本概念",
+            "slug": "基本概念-5",
+            "link": "#基本概念-5",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "基本操作",
+        "slug": "基本操作-5",
+        "link": "#基本操作-5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "顺序存储",
+        "slug": "顺序存储",
+        "link": "#顺序存储",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "结构定义",
+        "slug": "结构定义",
+        "link": "#结构定义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "初始化",
+        "slug": "初始化",
+        "link": "#初始化",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "判栈空",
+        "slug": "判栈空",
+        "link": "#判栈空",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "进栈",
+        "slug": "进栈",
+        "link": "#进栈",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "出栈",
+        "slug": "出栈",
+        "link": "#出栈",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "读栈顶元素",
+        "slug": "读栈顶元素",
+        "link": "#读栈顶元素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "共享栈",
+        "slug": "共享栈",
+        "link": "#共享栈",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "链式存储",
+        "slug": "链式存储",
+        "link": "#链式存储",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "进栈",
+        "slug": "进栈-1",
+        "link": "#进栈-1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "出栈",
+        "slug": "出栈-1",
+        "link": "#出栈-1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、队列",
+        "slug": "二、队列",
+        "link": "#二、队列",
         "children": [
           {
             "level": 3,
@@ -7599,69 +8851,53 @@ export const searchIndex = [
           {
             "level": 3,
             "title": "基本操作",
-            "slug": "基本操作-5",
-            "link": "#基本操作-5",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "栈",
-        "slug": "栈",
-        "link": "#栈",
-        "children": [
-          {
-            "level": 3,
-            "title": "基本概念",
-            "slug": "基本概念-7",
-            "link": "#基本概念-7",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "基本操作",
             "slug": "基本操作-6",
             "link": "#基本操作-6",
             "children": []
-          },
-          {
-            "level": 3,
-            "title": "顺序存储",
-            "slug": "顺序存储",
-            "link": "#顺序存储",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "链式存储",
-            "slug": "链式存储",
-            "link": "#链式存储",
-            "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "队列",
-        "slug": "队列",
-        "link": "#队列",
-        "children": [
-          {
-            "level": 3,
-            "title": "基本概念",
-            "slug": "基本概念-8",
-            "link": "#基本概念-8",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "基本操作",
-            "slug": "基本操作-7",
-            "link": "#基本操作-7",
-            "children": []
-          }
-        ]
+        "title": "三、数组",
+        "slug": "三、数组",
+        "link": "#三、数组",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、串",
+        "slug": "四、串",
+        "link": "#四、串",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、树与二叉树",
+        "slug": "五、树与二叉树",
+        "link": "#五、树与二叉树",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、图",
+        "slug": "六、图",
+        "link": "#六、图",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、查找",
+        "slug": "七、查找",
+        "link": "#七、查找",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、排序",
+        "slug": "八、排序",
+        "link": "#八、排序",
+        "children": []
       }
     ],
     "path": "/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html",
@@ -9950,1009 +11186,9 @@ export const searchIndex = [
   },
   {
     "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 函数概述",
-        "slug": "_1-函数概述",
-        "link": "#_1-函数概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 函数定义",
-        "slug": "_2-函数定义",
-        "link": "#_2-函数定义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 返回语句",
-        "slug": "_3-返回语句",
-        "link": "#_3-返回语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 函数参数",
-        "slug": "_4-函数参数",
-        "link": "#_4-函数参数",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 形参与实参",
-            "slug": "_4-1-形参与实参",
-            "link": "#_4-1-形参与实参",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 数组参数",
-            "slug": "_4-2-数组参数",
-            "link": "#_4-2-数组参数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 指针作参数",
-            "slug": "_4-3-指针作参数",
-            "link": "#_4-3-指针作参数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.4 main函数参数",
-            "slug": "_4-4-main函数参数",
-            "link": "#_4-4-main函数参数",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5. 函数调用",
-        "slug": "_5-函数调用",
-        "link": "#_5-函数调用",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 函数语句调用",
-            "slug": "_5-1-函数语句调用",
-            "link": "#_5-1-函数语句调用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 函数表达式调用",
-            "slug": "_5-2-函数表达式调用",
-            "link": "#_5-2-函数表达式调用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.3 函数参数调用",
-            "slug": "_5-3-函数参数调用",
-            "link": "#_5-3-函数参数调用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.4 嵌套调用",
-            "slug": "_5-4-嵌套调用",
-            "link": "#_5-4-嵌套调用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.5 递归调用",
-            "slug": "_5-5-递归调用",
-            "link": "#_5-5-递归调用",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6. 内部函数和外部函数",
-        "slug": "_6-内部函数和外部函数",
-        "link": "#_6-内部函数和外部函数",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 内部函数",
-            "slug": "_6-1-内部函数",
-            "link": "#_6-1-内部函数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 外部函数",
-            "slug": "_6-2-外部函数",
-            "link": "#_6-2-外部函数",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "7. 局部变量和全局变量",
-        "slug": "_7-局部变量和全局变量",
-        "link": "#_7-局部变量和全局变量",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.1 局部变量",
-            "slug": "_7-1-局部变量",
-            "link": "#_7-1-局部变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.2 全局变量",
-            "slug": "_7-2-全局变量",
-            "link": "#_7-2-全局变量",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "8. 数学公式",
-        "slug": "_8-数学公式",
-        "link": "#_8-数学公式",
-        "children": [
-          {
-            "level": 3,
-            "title": "8.1 绝对值",
-            "slug": "_8-1-绝对值",
-            "link": "#_8-1-绝对值",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.2 三角函数",
-            "slug": "_8-2-三角函数",
-            "link": "#_8-2-三角函数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "8.3 字符检测",
-            "slug": "_8-3-字符检测",
-            "link": "#_8-3-字符检测",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/%E5%87%BD%E6%95%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 概念",
-        "slug": "_1-概念",
-        "link": "#_1-概念",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 地址、变量与指针",
-            "slug": "_1-1-地址、变量与指针",
-            "link": "#_1-1-地址、变量与指针",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 指针运算",
-            "slug": "_1-2-指针运算",
-            "link": "#_1-2-指针运算",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 数组与指针",
-        "slug": "_2-数组与指针",
-        "link": "#_2-数组与指针",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 双重指针",
-        "slug": "_3-双重指针",
-        "link": "#_3-双重指针",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 函数参数",
-        "slug": "_4-函数参数",
-        "link": "#_4-函数参数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 指针函数",
-        "slug": "_5-指针函数",
-        "link": "#_5-指针函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. main参数",
-        "slug": "_6-main参数",
-        "link": "#_6-main参数",
-        "children": []
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/%E6%8C%87%E9%92%88.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1. 标识符",
-        "slug": "_1-标识符",
-        "link": "#_1-标识符",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2. 关键字",
-        "slug": "_2-关键字",
-        "link": "#_2-关键字",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 数据类型",
-        "slug": "_3-数据类型",
-        "link": "#_3-数据类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 常量",
-        "slug": "_4-常量",
-        "link": "#_4-常量",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 整型常量",
-            "slug": "_4-1-整型常量",
-            "link": "#_4-1-整型常量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 浮点型常量",
-            "slug": "_4-2-浮点型常量",
-            "link": "#_4-2-浮点型常量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 字符型常量",
-            "slug": "_4-3-字符型常量",
-            "link": "#_4-3-字符型常量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.4 转义字符",
-            "slug": "_4-4-转义字符",
-            "link": "#_4-4-转义字符",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.5 符号常量",
-            "slug": "_4-5-符号常量",
-            "link": "#_4-5-符号常量",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5. 变量",
-        "slug": "_5-变量",
-        "link": "#_5-变量",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 整型变量",
-            "slug": "_5-1-整型变量",
-            "link": "#_5-1-整型变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 浮点型变量",
-            "slug": "_5-2-浮点型变量",
-            "link": "#_5-2-浮点型变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.3 字符型变量",
-            "slug": "_5-3-字符型变量",
-            "link": "#_5-3-字符型变量",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6. 变量的存储类别",
-        "slug": "_6-变量的存储类别",
-        "link": "#_6-变量的存储类别",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 静态存储与动态存储",
-            "slug": "_6-1-静态存储与动态存储",
-            "link": "#_6-1-静态存储与动态存储",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 auto变量",
-            "slug": "_6-2-auto变量",
-            "link": "#_6-2-auto变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.3 staticus变量",
-            "slug": "_6-3-staticus变量",
-            "link": "#_6-3-staticus变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.4 register变量",
-            "slug": "_6-4-register变量",
-            "link": "#_6-4-register变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.5 extern变量",
-            "slug": "_6-5-extern变量",
-            "link": "#_6-5-extern变量",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "7. 混合运算",
-        "slug": "_7-混合运算",
-        "link": "#_7-混合运算",
-        "children": []
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 一维数组",
-        "slug": "_1-一维数组",
-        "link": "#_1-一维数组",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 二维数组",
-        "slug": "_2-二维数组",
-        "link": "#_2-二维数组",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 字符数组",
-        "slug": "_3-字符数组",
-        "link": "#_3-字符数组",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 多维数组",
-        "slug": "_4-多维数组",
-        "link": "#_4-多维数组",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 排序算法",
-        "slug": "_5-排序算法",
-        "link": "#_5-排序算法",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 选择排序法",
-            "slug": "_5-1-选择排序法",
-            "link": "#_5-1-选择排序法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 冒泡排序法",
-            "slug": "_5-2-冒泡排序法",
-            "link": "#_5-2-冒泡排序法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.3 交换排序法",
-            "slug": "_5-3-交换排序法",
-            "link": "#_5-3-交换排序法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.4 插入排序法",
-            "slug": "_5-4-插入排序法",
-            "link": "#_5-4-插入排序法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.5 折半排序法",
-            "slug": "_5-5-折半排序法",
-            "link": "#_5-5-折半排序法",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6. 字符串处理",
-        "slug": "_6-字符串处理",
-        "link": "#_6-字符串处理",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 字符串复制（strcpy）",
-            "slug": "_6-1-字符串复制-strcpy",
-            "link": "#_6-1-字符串复制-strcpy",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 字符串连接（strcat）",
-            "slug": "_6-2-字符串连接-strcat",
-            "link": "#_6-2-字符串连接-strcat",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.3 字符串比较（strcmp）",
-            "slug": "_6-3-字符串比较-strcmp",
-            "link": "#_6-3-字符串比较-strcmp",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.4 字符串大小写转换（strupr/strlwr）",
-            "slug": "_6-4-字符串大小写转换-strupr-strlwr",
-            "link": "#_6-4-字符串大小写转换-strupr-strlwr",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.5 字符串长度（strlen）",
-            "slug": "_6-5-字符串长度-strlen",
-            "link": "#_6-5-字符串长度-strlen",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "7. 应用",
-        "slug": "_7-应用",
-        "link": "#_7-应用",
-        "children": []
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/%E6%95%B0%E7%BB%84.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 程序语言",
-        "slug": "_1-程序语言",
-        "link": "#_1-程序语言",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 机器语言",
-            "slug": "_1-1-机器语言",
-            "link": "#_1-1-机器语言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 汇编语言",
-            "slug": "_1-2-汇编语言",
-            "link": "#_1-2-汇编语言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 高级语言",
-            "slug": "_1-3-高级语言",
-            "link": "#_1-3-高级语言",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 特点",
-        "slug": "_2-特点",
-        "link": "#_2-特点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 应用",
-        "slug": "_3-应用",
-        "link": "#_3-应用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 集成开发环境",
-        "slug": "_4-集成开发环境",
-        "link": "#_4-集成开发环境",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 GCC简介",
-            "slug": "_4-1-gcc简介",
-            "link": "#_4-1-gcc简介",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 GCC安装（空）",
-            "slug": "_4-2-gcc安装-空",
-            "link": "#_4-2-gcc安装-空",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5. 第一个C程序",
-        "slug": "_5-第一个c程序",
-        "link": "#_5-第一个c程序",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 hello.c",
-            "slug": "_5-1-hello-c",
-            "link": "#_5-1-hello-c",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 calculate.c",
-            "slug": "_5-2-calculate-c",
-            "link": "#_5-2-calculate-c",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.3 代码分析",
-            "slug": "_5-3-代码分析",
-            "link": "#_5-3-代码分析",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6. 编译过程",
-        "slug": "_6-编译过程",
-        "link": "#_6-编译过程",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 编译步骤",
-            "slug": "_6-1-编译步骤",
-            "link": "#_6-1-编译步骤",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 编译指令",
-            "slug": "_6-2-编译指令",
-            "link": "#_6-2-编译指令",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/%E6%A6%82%E8%BF%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 输入/输出函数",
-        "slug": "_1-输入-输出函数",
-        "link": "#_1-输入-输出函数",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 字符输出（putchar）",
-            "slug": "_1-1-字符输出-putchar",
-            "link": "#_1-1-字符输出-putchar",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 字符输入（getchar）",
-            "slug": "_1-2-字符输入-getchar",
-            "link": "#_1-2-字符输入-getchar",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 字符串输出（puts）",
-            "slug": "_1-3-字符串输出-puts",
-            "link": "#_1-3-字符串输出-puts",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4 字符串输入（gets）",
-            "slug": "_1-4-字符串输入-gets",
-            "link": "#_1-4-字符串输入-gets",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.5 格式输出函数（printf）",
-            "slug": "_1-5-格式输出函数-printf",
-            "link": "#_1-5-格式输出函数-printf",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.6 格式输入函数（scanf）",
-            "slug": "_1-6-格式输入函数-scanf",
-            "link": "#_1-6-格式输入函数-scanf",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.7 实例",
-            "slug": "_1-7-实例",
-            "link": "#_1-7-实例",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. if语句",
-        "slug": "_2-if语句",
-        "link": "#_2-if语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. if ... else语句",
-        "slug": "_3-if-else语句",
-        "link": "#_3-if-else语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. else if语句",
-        "slug": "_4-else-if语句",
-        "link": "#_4-else-if语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. switch语句",
-        "slug": "_5-switch语句",
-        "link": "#_5-switch语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. while语句",
-        "slug": "_6-while语句",
-        "link": "#_6-while语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7. do...while语句",
-        "slug": "_7-do-while语句",
-        "link": "#_7-do-while语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8. for语句",
-        "slug": "_8-for语句",
-        "link": "#_8-for语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9. goto语句",
-        "slug": "_9-goto语句",
-        "link": "#_9-goto语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10. break语句",
-        "slug": "_10-break语句",
-        "link": "#_10-break语句",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "11. continue语句",
-        "slug": "_11-continue语句",
-        "link": "#_11-continue语句",
-        "children": []
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 结构体",
-        "slug": "_1-结构体",
-        "link": "#_1-结构体",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 定义与声明",
-            "slug": "_1-1-定义与声明",
-            "link": "#_1-1-定义与声明",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 引用",
-            "slug": "_1-2-引用",
-            "link": "#_1-2-引用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 初始化",
-            "slug": "_1-3-初始化",
-            "link": "#_1-3-初始化",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 结构体数组",
-        "slug": "_2-结构体数组",
-        "link": "#_2-结构体数组",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 定义",
-            "slug": "_2-1-定义",
-            "link": "#_2-1-定义",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 初始化",
-            "slug": "_2-2-初始化",
-            "link": "#_2-2-初始化",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 结构体指针",
-        "slug": "_3-结构体指针",
-        "link": "#_3-结构体指针",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 指向结构体变量",
-            "slug": "_3-1-指向结构体变量",
-            "link": "#_3-1-指向结构体变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 指向结构体数组",
-            "slug": "_3-2-指向结构体数组",
-            "link": "#_3-2-指向结构体数组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 结构体作函数参数",
-            "slug": "_3-3-结构体作函数参数",
-            "link": "#_3-3-结构体作函数参数",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4. 包含结构的结构",
-        "slug": "_4-包含结构的结构",
-        "link": "#_4-包含结构的结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 链表",
-        "slug": "_5-链表",
-        "link": "#_5-链表",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 概述",
-            "slug": "_5-1-概述",
-            "link": "#_5-1-概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 动态链表",
-            "slug": "_5-2-动态链表",
-            "link": "#_5-2-动态链表",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.3 输出链表",
-            "slug": "_5-3-输出链表",
-            "link": "#_5-3-输出链表",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "6. 共用体",
-        "slug": "_6-共用体",
-        "link": "#_6-共用体",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7. 枚举类型",
-        "slug": "_7-枚举类型",
-        "link": "#_7-枚举类型",
-        "children": []
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/%E7%BB%93%E6%9E%84%E4%BD%93%E4%B8%8E%E5%85%B1%E7%94%A8%E4%BD%93.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 表达式",
-        "slug": "_1-表达式",
-        "link": "#_1-表达式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. 赋值运算符（=）",
-        "slug": "_2-赋值运算符",
-        "link": "#_2-赋值运算符",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 算术运算符",
-        "slug": "_3-算术运算符",
-        "link": "#_3-算术运算符",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. 关系运算符",
-        "slug": "_4-关系运算符",
-        "link": "#_4-关系运算符",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. 逻辑运算符",
-        "slug": "_5-逻辑运算符",
-        "link": "#_5-逻辑运算符",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. 位逻辑运算符",
-        "slug": "_6-位逻辑运算符",
-        "link": "#_6-位逻辑运算符",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7. 逗号运算符（,）",
-        "slug": "_7-逗号运算符",
-        "link": "#_7-逗号运算符",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8. 复合赋值运算符",
-        "slug": "_8-复合赋值运算符",
-        "link": "#_8-复合赋值运算符",
-        "children": []
-      }
-    ],
-    "path": "/guide/C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/%E8%BF%90%E7%AE%97%E7%AC%A6%E4%B8%8E%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
     "headers": [],
     "path": "/404.html",
     "pathLocale": "/",
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

@@ -24,7 +24,6 @@
 * 案例3：[仅知识库](https://xugaoyi.github.io/vdoing-demo-repository/)
 * 案例4：[文档站](https://doc.xugaoyi.com/)
 
-
 ## 快速上手
 
 ```bash

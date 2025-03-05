@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.2" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+        document.documentElement.classList.toggle('dark', true)
+      }
+    </script>
+    <link rel="icon" href="image/monkey.ico"><title>赛博空间</title><meta name="description" content="一个汇集了我所学知识的仓库">
+    <link rel="stylesheet" href="/assets/css/styles.9c2ecc62.css">
+    <link rel="preload" href="/assets/js/runtime~app.6af18f5a.js" as="script"><link rel="preload" href="/assets/css/styles.9c2ecc62.css" as="style"><link rel="preload" href="/assets/js/7591.0b8245e5.js" as="script"><link rel="preload" href="/assets/js/app.4591f028.js" as="script"><link rel="preload" href="/assets/js/v-0e121ed8.d2444f4a.js" as="script">
+    <link rel="prefetch" href="/assets/js/v-60560447.9d2da5bd.js" as="script"><link rel="prefetch" href="/assets/js/v-20049c58.ab11a018.js" as="script"><link rel="prefetch" href="/assets/js/v-7a9df024.ed507c9f.js" as="script"><link rel="prefetch" href="/assets/js/v-336af11d.3ea3ed68.js" as="script"><link rel="prefetch" href="/assets/js/v-db6698f0.1d0917d9.js" as="script"><link rel="prefetch" href="/assets/js/v-9c18926e.018c52d6.js" as="script"><link rel="prefetch" href="/assets/js/v-4a421c96.a18b897c.js" as="script"><link rel="prefetch" href="/assets/js/v-52cb2e36.9067c825.js" as="script"><link rel="prefetch" href="/assets/js/v-c047fc14.79e48192.js" as="script"><link rel="prefetch" href="/assets/js/v-0c651de5.e0151f3c.js" as="script"><link rel="prefetch" href="/assets/js/v-0fdb7170.5edae832.js" as="script"><link rel="prefetch" href="/assets/js/v-5a56c5b6.04478681.js" as="script"><link rel="prefetch" href="/assets/js/v-67e79440.c7189313.js" as="script"><link rel="prefetch" href="/assets/js/v-0369017a.ea8fb724.js" as="script"><link rel="prefetch" href="/assets/js/v-25158589.872934f5.js" as="script"><link rel="prefetch" href="/assets/js/v-68e6c1b0.59cfe58c.js" as="script"><link rel="prefetch" href="/assets/js/v-02ea1f50.4b56d78d.js" as="script"><link rel="prefetch" href="/assets/js/v-625cc0cf.cfa258fd.js" as="script"><link rel="prefetch" href="/assets/js/v-7afa9833.5f125af6.js" as="script"><link rel="prefetch" href="/assets/js/v-6df5a04c.dd38d399.js" as="script"><link rel="prefetch" href="/assets/js/v-f6e2acc4.128e22c9.js" as="script"><link rel="prefetch" href="/assets/js/v-082ab9b8.f9e3310d.js" as="script"><link rel="prefetch" href="/assets/js/v-9d95a1c2.801fc230.js" as="script"><link rel="prefetch" href="/assets/js/v-1258a5db.2317b9b5.js" as="script"><link rel="prefetch" href="/assets/js/v-7eba83e4.1fff300e.js" as="script"><link rel="prefetch" href="/assets/js/v-0b33adc4.bdd3216a.js" as="script"><link rel="prefetch" href="/assets/js/v-796c7f23.3e048821.js" as="script"><link rel="prefetch" href="/assets/js/v-0ff4f883.3b85ed9a.js" as="script"><link rel="prefetch" href="/assets/js/v-0adac565.4341bdef.js" as="script"><link rel="prefetch" href="/assets/js/v-0a209293.dbbb8530.js" as="script"><link rel="prefetch" href="/assets/js/v-21ed57ba.0dd56f69.js" as="script"><link rel="prefetch" href="/assets/js/v-f7cfdd60.d2e1e6c8.js" as="script"><link rel="prefetch" href="/assets/js/v-5d852d72.0f1edf8a.js" as="script"><link rel="prefetch" href="/assets/js/v-47a856ec.439349ca.js" as="script"><link rel="prefetch" href="/assets/js/v-e8ab08d8.afefe9a9.js" as="script"><link rel="prefetch" href="/assets/js/v-74c85740.b087616c.js" as="script"><link rel="prefetch" href="/assets/js/v-0b409012.bf3ac913.js" as="script"><link rel="prefetch" href="/assets/js/v-4b242395.4d12242a.js" as="script"><link rel="prefetch" href="/assets/js/v-22f84562.04cdf484.js" as="script"><link rel="prefetch" href="/assets/js/v-2b15b553.41bb4241.js" as="script"><link rel="prefetch" href="/assets/js/v-36fcca4c.17b97f59.js" as="script"><link rel="prefetch" href="/assets/js/v-3c0928cc.8ac257fc.js" as="script"><link rel="prefetch" href="/assets/js/v-4f524ed2.4356b02c.js" as="script"><link rel="prefetch" href="/assets/js/v-64ed8d52.6a7725c2.js" as="script"><link rel="prefetch" href="/assets/js/v-12da2e4a.5429c67a.js" as="script"><link rel="prefetch" href="/assets/js/v-b90e6ce0.f3f24c5f.js" as="script"><link rel="prefetch" href="/assets/js/v-281c5e50.39d4a529.js" as="script"><link rel="prefetch" href="/assets/js/v-c3d1a61c.4bf9c864.js" as="script"><link rel="prefetch" href="/assets/js/v-219184a7.16f92914.js" as="script"><link rel="prefetch" href="/assets/js/v-d838ffdc.41835911.js" as="script"><link rel="prefetch" href="/assets/js/v-090d5acc.4e0c901b.js" as="script"><link rel="prefetch" href="/assets/js/v-3cfec120.9bafa2c5.js" as="script"><link rel="prefetch" href="/assets/js/v-73407abe.907f4093.js" as="script"><link rel="prefetch" href="/assets/js/v-908263de.fc9366a1.js" as="script"><link rel="prefetch" href="/assets/js/v-2fe9b335.940d9154.js" as="script"><link rel="prefetch" href="/assets/js/v-31c12af1.98b04b39.js" as="script"><link rel="prefetch" href="/assets/js/v-fffb8e28.c4fad458.js" as="script"><link rel="prefetch" href="/assets/js/v-0ab17ed9.f96e73ee.js" as="script"><link rel="prefetch" href="/assets/js/v-04cd46cf.b071d122.js" as="script"><link rel="prefetch" href="/assets/js/v-749b3a25.e30f4cde.js" as="script"><link rel="prefetch" href="/assets/js/v-cc9ad3ec.d1dc48d1.js" as="script"><link rel="prefetch" href="/assets/js/v-48589978.b40ec9c8.js" as="script"><link rel="prefetch" href="/assets/js/v-a3243ae4.1808cdfa.js" as="script"><link rel="prefetch" href="/assets/js/v-bc61f548.3b972024.js" as="script"><link rel="prefetch" href="/assets/js/v-676f9062.2b040f9a.js" as="script"><link rel="prefetch" href="/assets/js/v-590c592c.4c16cd1b.js" as="script"><link rel="prefetch" href="/assets/js/v-1f9f01b4.8c3b2128.js" as="script"><link rel="prefetch" href="/assets/js/v-2b550374.bc792882.js" as="script"><link rel="prefetch" href="/assets/js/v-e8ebb848.8a9bc171.js" as="script"><link rel="prefetch" href="/assets/js/v-5651ef32.e7122bab.js" as="script"><link rel="prefetch" href="/assets/js/v-2f36061f.e9a6ab61.js" as="script"><link rel="prefetch" href="/assets/js/v-9c868306.efad1522.js" as="script"><link rel="prefetch" href="/assets/js/v-2c41ddcf.cae142fb.js" as="script"><link rel="prefetch" href="/assets/js/v-77b181f6.55578af0.js" as="script"><link rel="prefetch" href="/assets/js/v-2a3bf902.9c08cdc4.js" as="script"><link rel="prefetch" href="/assets/js/v-fd01cf8a.c56d1b5c.js" as="script"><link rel="prefetch" href="/assets/js/v-bb6407b0.314bed86.js" as="script"><link rel="prefetch" href="/assets/js/v-049c82d2.72eb7b7a.js" as="script"><link rel="prefetch" href="/assets/js/v-3ee2649e.972261d8.js" as="script"><link rel="prefetch" href="/assets/js/v-f3b1aeae.94737bae.js" as="script"><link rel="prefetch" href="/assets/js/v-65b96128.962659c1.js" as="script"><link rel="prefetch" href="/assets/js/v-d47fbc82.a40fdc4e.js" as="script"><link rel="prefetch" href="/assets/js/v-102a6f8f.3270a857.js" as="script"><link rel="prefetch" href="/assets/js/v-6ee3dc74.3a704d16.js" as="script"><link rel="prefetch" href="/assets/js/v-579924c1.7dc50fd8.js" as="script"><link rel="prefetch" href="/assets/js/v-f93a2056.712f83d2.js" as="script"><link rel="prefetch" href="/assets/js/v-80f12c62.db183834.js" as="script"><link rel="prefetch" href="/assets/js/v-07298f94.72626d99.js" as="script"><link rel="prefetch" href="/assets/js/v-063ee6c4.29397d90.js" as="script"><link rel="prefetch" href="/assets/js/v-2096c154.a2f4d695.js" as="script"><link rel="prefetch" href="/assets/js/v-9ff1b2e0.5e32e680.js" as="script"><link rel="prefetch" href="/assets/js/v-66aa0022.c9917e98.js" as="script"><link rel="prefetch" href="/assets/js/v-0b2532fa.a70d6d95.js" as="script"><link rel="prefetch" href="/assets/js/v-c140984a.936f69cb.js" as="script"><link rel="prefetch" href="/assets/js/v-5e5892b6.b4f531f3.js" as="script"><link rel="prefetch" href="/assets/js/v-93185724.14da4f65.js" as="script"><link rel="prefetch" href="/assets/js/v-cc7d0dce.ef50442b.js" as="script"><link rel="prefetch" href="/assets/js/v-1fc47320.a63da0da.js" as="script"><link rel="prefetch" href="/assets/js/v-ccec8d00.f5550ef9.js" as="script"><link rel="prefetch" href="/assets/js/v-8daa1a0e.569e352e.js" as="script"><link rel="prefetch" href="/assets/js/v-337ec31c.6d226617.js" as="script"><link rel="prefetch" href="/assets/js/v-e8708960.e2461b78.js" as="script"><link rel="prefetch" href="/assets/js/v-582004c0.f9753bbc.js" as="script"><link rel="prefetch" href="/assets/js/v-3303e6a1.70e83c17.js" as="script"><link rel="prefetch" href="/assets/js/v-1d084e58.6a4c7b5a.js" as="script"><link rel="prefetch" href="/assets/js/v-3362585c.bb1e5f18.js" as="script"><link rel="prefetch" href="/assets/js/v-20430100.a6096b4a.js" as="script"><link rel="prefetch" href="/assets/js/v-b0e96884.8a82f67e.js" as="script"><link rel="prefetch" href="/assets/js/v-778194f3.8e5785f9.js" as="script"><link rel="prefetch" href="/assets/js/v-1c2eb18e.c20462a0.js" as="script"><link rel="prefetch" href="/assets/js/v-250a6ef3.8c318ff1.js" as="script"><link rel="prefetch" href="/assets/js/v-4fe08351.8095ee51.js" as="script"><link rel="prefetch" href="/assets/js/v-03b4d928.9d58ca99.js" as="script"><link rel="prefetch" href="/assets/js/v-71df3bd9.a08ccd8e.js" as="script"><link rel="prefetch" href="/assets/js/v-98485b68.349343ec.js" as="script"><link rel="prefetch" href="/assets/js/v-d479f010.33233060.js" as="script"><link rel="prefetch" href="/assets/js/v-4925ec0a.2d20b573.js" as="script"><link rel="prefetch" href="/assets/js/v-39cad357.722b2c90.js" as="script"><link rel="prefetch" href="/assets/js/v-1d102c2d.3ec10560.js" as="script"><link rel="prefetch" href="/assets/js/v-3706649a.57bf299f.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><img class="logo" src="/image/monkey.ico" alt="赛博空间"><span class="site-name can-hide" aria-hidden="true">赛博空间</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide" aria-label="site navigation"><!--[--><div class="navbar-item"><a href="/guide/README.md" class="" aria-label="主页"><!--[--><!--]--> 主页 <!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="HTML"><span class="title">HTML</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="HTML"><span class="title">HTML</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/guide/02.HTML/前置准备.md" class="" aria-label="前置准备"><!--[--><!--]--> 前置准备 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/02.HTML/HTML基础.md" class="" aria-label="HTML基础"><!--[--><!--]--> HTML基础 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/02.HTML/HTML高级.md" class="" aria-label="HTML高级"><!--[--><!--]--> HTML高级 <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="CSS"><span class="title">CSS</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="CSS"><span class="title">CSS</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/guide/03.CSS/网格布局.md" class="" aria-label="网格布局"><!--[--><!--]--> 网格布局 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/03.CSS/CSS基础.md" class="" aria-label="CSS基础"><!--[--><!--]--> CSS基础 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/03.CSS/CSS高级.md" class="" aria-label="CSS高级"><!--[--><!--]--> CSS高级 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/03.CSS/CSS实战.md" class="" aria-label="CSS实战"><!--[--><!--]--> CSS实战 <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="Javascript"><span class="title">Javascript</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="Javascript"><span class="title">Javascript</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/前言.md" class="" aria-label="前言"><!--[--><!--]--> 前言 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/语法.md" class="" aria-label="语法"><!--[--><!--]--> 语法 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/函数.md" class="" aria-label="函数"><!--[--><!--]--> 函数 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/事件.md" class="" aria-label="事件"><!--[--><!--]--> 事件 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/数组.md" class="" aria-label="数组"><!--[--><!--]--> 数组 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/对象.md" class="" aria-label="对象"><!--[--><!--]--> 对象 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/Ajax.md" class="" aria-label="Ajax"><!--[--><!--]--> Ajax <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/BOM.md" class="" aria-label="BOM"><!--[--><!--]--> BOM <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/DOM.md" class="" aria-label="DOM"><!--[--><!--]--> DOM <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/正则表达式.md" class="" aria-label="正则表达式"><!--[--><!--]--> 正则表达式 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/jQuery.md" class="" aria-label="jQuery"><!--[--><!--]--> jQuery <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/Javascript实战.md" class="" aria-label="实战"><!--[--><!--]--> 实战 <!--[--><!--]--></a></li><!--]--></ul></div></div><!--]--></nav><!--[--><!--]--><button class="toggle-color-mode-button" title="toggle color mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><form class="search-box" role="search"><input type="search" autocomplete="off" spellcheck="false" value><!----></form></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items" aria-label="site navigation"><!--[--><div class="navbar-item"><a href="/guide/README.md" class="" aria-label="主页"><!--[--><!--]--> 主页 <!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="HTML"><span class="title">HTML</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="HTML"><span class="title">HTML</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/guide/02.HTML/前置准备.md" class="" aria-label="前置准备"><!--[--><!--]--> 前置准备 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/02.HTML/HTML基础.md" class="" aria-label="HTML基础"><!--[--><!--]--> HTML基础 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/02.HTML/HTML高级.md" class="" aria-label="HTML高级"><!--[--><!--]--> HTML高级 <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="CSS"><span class="title">CSS</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="CSS"><span class="title">CSS</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/guide/03.CSS/网格布局.md" class="" aria-label="网格布局"><!--[--><!--]--> 网格布局 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/03.CSS/CSS基础.md" class="" aria-label="CSS基础"><!--[--><!--]--> CSS基础 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/03.CSS/CSS高级.md" class="" aria-label="CSS高级"><!--[--><!--]--> CSS高级 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/03.CSS/CSS实战.md" class="" aria-label="CSS实战"><!--[--><!--]--> CSS实战 <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="Javascript"><span class="title">Javascript</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="Javascript"><span class="title">Javascript</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/前言.md" class="" aria-label="前言"><!--[--><!--]--> 前言 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/语法.md" class="" aria-label="语法"><!--[--><!--]--> 语法 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/函数.md" class="" aria-label="函数"><!--[--><!--]--> 函数 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/事件.md" class="" aria-label="事件"><!--[--><!--]--> 事件 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/数组.md" class="" aria-label="数组"><!--[--><!--]--> 数组 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/对象.md" class="" aria-label="对象"><!--[--><!--]--> 对象 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/Ajax.md" class="" aria-label="Ajax"><!--[--><!--]--> Ajax <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/BOM.md" class="" aria-label="BOM"><!--[--><!--]--> BOM <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/DOM.md" class="" aria-label="DOM"><!--[--><!--]--> DOM <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/正则表达式.md" class="" aria-label="正则表达式"><!--[--><!--]--> 正则表达式 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/jQuery.md" class="" aria-label="jQuery"><!--[--><!--]--> jQuery <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/guide/04.Javascript/Javascript实战.md" class="" aria-label="实战"><!--[--><!--]--> 实战 <!--[--><!--]--></a></li><!--]--></ul></div></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading"> <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#单链表" class="router-link-active router-link-exact-active sidebar-item" aria-label="单链表"><!--[--><!--]--> 单链表 <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#基本概念" class="router-link-active router-link-exact-active sidebar-item" aria-label="基本概念"><!--[--><!--]--> 基本概念 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#基本操作" class="router-link-active router-link-exact-active sidebar-item" aria-label="基本操作"><!--[--><!--]--> 基本操作 <!--[--><!--]--></a><!----></li><!--]--></ul></li><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#静态链表" class="router-link-active router-link-exact-active sidebar-item" aria-label="静态链表"><!--[--><!--]--> 静态链表 <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#基本概念-1" class="router-link-active router-link-exact-active sidebar-item" aria-label="基本概念"><!--[--><!--]--> 基本概念 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#基本操作-1" class="router-link-active router-link-exact-active sidebar-item" aria-label="基本操作"><!--[--><!--]--> 基本操作 <!--[--><!--]--></a><!----></li><!--]--></ul></li><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#循环链表" class="router-link-active router-link-exact-active sidebar-item" aria-label="循环链表"><!--[--><!--]--> 循环链表 <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#基本概念-2" class="router-link-active router-link-exact-active sidebar-item" aria-label="基本概念"><!--[--><!--]--> 基本概念 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#基本操作-2" class="router-link-active router-link-exact-active sidebar-item" aria-label="基本操作"><!--[--><!--]--> 基本操作 <!--[--><!--]--></a><!----></li><!--]--></ul></li><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#双向链表" class="router-link-active router-link-exact-active sidebar-item" aria-label="双向链表"><!--[--><!--]--> 双向链表 <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#基本概念-3" class="router-link-active router-link-exact-active sidebar-item" aria-label="基本概念"><!--[--><!--]--> 基本概念 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/guide/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.html#基本操作-3" class="router-link-active router-link-exact-active sidebar-item" aria-label="基本操作"><!--[--><!--]--> 基本操作 <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h2 id="单链表" tabindex="-1"><a class="header-anchor" href="#单链表"><span>单链表</span></a></h2><h3 id="基本概念" tabindex="-1"><a class="header-anchor" href="#基本概念"><span>基本概念</span></a></h3><p><strong>单链表</strong>：线性表的链式存储，用任意一组存储单元存储元素</p><!----><p><strong>头指针</strong>：链表中第一个节点的存储位置，有头结点则指向头结点(<strong>必备</strong>)</p><!----><p><strong>头结点</strong>：单链表第一个结点前附加的一个结点</p><p><strong>数据域</strong>：存储信息元素的域(<strong>p-&gt;data</strong>)</p><p><strong>指针域</strong>：存储直接后继的位置(<strong>p-&gt;next</strong>)</p><!----><p><strong>空链表</strong></p><!----><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 线性表的单链表存储结构 */
+typedef struct Node
+{
+    ElemType data;
+    struct Node *next;
+} Node;
+/* 定义LinkList */
+typedef struct Node *LinkList;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>单链表优缺点</strong></p><ol><li>无需连续存储单元</li><li>指针域会浪费空间</li><li>非随机存取，无法直接查找特定节点</li></ol><h3 id="基本操作" tabindex="-1"><a class="header-anchor" href="#基本操作"><span>基本操作</span></a></h3><h4 id="读取" tabindex="-1"><a class="header-anchor" href="#读取"><span>读取</span></a></h4><ol><li>声明指针p指向头结点，初始化j=1</li><li>j&lt;i时遍历链表，指针p不断向下移动，++j</li><li>p为空时，则i结点不存在</li><li>查找成功，则返回结点p的数据</li></ol><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 初始条件：顺序线性表L已存在，1≤i≤
+   ListLength(L) */
+/* 操作结果：用e返回L中第i个数据元素的值 */
+Status GetElem(LinkList L, int i, ElemType *e)
+{
+    int j;
+    LinkList p;            /* 声明一指针p */
+    p = L-&gt;next;        /* 让p指向链表L的第个结点 */
+    j = 1;                 /* j为计数器 */
+    /* p不为空且计数器j还没有等于i时，循环继续 */
+    while (p &amp;&amp; j &lt; i)    
+    {
+        p = p-&gt;next;    /* 让p指向下一个结点 */
+        ++j;
+    }
+    if (!p || j &gt; i)
+        return ERROR;      /* 第i个结点不存在 */
+    *e = p-&gt;data;       /* 取第i个结点的数据 */
+    return OK;
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="插入" tabindex="-1"><a class="header-anchor" href="#插入"><span>插入</span></a></h4><p><strong>单链表的插入</strong></p><!----><p><strong>表头/表尾的插入</strong></p><!----><ol><li>声明p指针指向头结点，初始化j=1</li><li>j&lt;i时遍历链表，指针p不断向下移动，++j</li><li>p为空时，则i结点不存在</li><li>查找成功，则生成空结点s</li><li>s-&gt;data = e</li><li>s-&gt;next = p-&gt;next</li><li>p-&gt;next = s</li><li>返回成功</li></ol><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 初始条件：顺序线性表L已存在，1≤i≤
+   ListLength(L)， */
+/* 操作结果：在L中第i个结点位置之前插入新的数
+   据元素e，L的长度加1 */
+Status ListInsert(LinkList *L, int i, ElemType e)
+{
+    int j;
+    LinkList p, s;
+    p = *L;
+    j = 1;
+    /* 寻找第i-1个结点 */
+    while (p &amp;&amp; j &lt; i)                     
+    {
+        p = p-&gt;next;
+        ++j;
+    }
+    /* 第i个结点不存在 */
+    if (!p || j &gt; i)
+        return ERROR;                      
+    /* 生成新结点（C标准函数） */
+    s = (LinkList)malloc(sizeof(Node));    
+    s-&gt;data = e;
+    /* 将p的后继结点赋值给s的后继 */
+    s-&gt;next = p-&gt;next;                    
+    /* 将s赋值给p的后继 */
+    p-&gt;next = s;
+    return OK;
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="删除" tabindex="-1"><a class="header-anchor" href="#删除"><span>删除</span></a></h4><!----><ol><li>声明p指针指向头结点，初始化j=1</li><li>j&lt;i时遍历链表，指针p不断向下移动，++j</li><li>p为空时，则i结点不存在</li><li>查找成功，则q = p-&gt;next</li><li>p-&gt;next = q-&gt;next</li><li>e = q-&gt;data</li><li>释放q结点</li><li>返回成功</li></ol><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 初始条件：顺序线性表L已存在，1≤i≤
+   ListLength(L) */
+/* 操作结果：删除L的第i个结点，并用e返回其
+   值，L的长度减1 */
+Status ListDelete(LinkList *L, int i, ElemType *e)
+{
+    int j;
+    LinkList p, q;
+    p = *L;
+    j = 1;
+    /* 遍历寻找第i-1个结点 */
+    while (p-&gt;next &amp;&amp; j &lt; i)    
+    {
+        p = p-&gt;next;
+        ++j;
+    }
+    /* 第i个结点不存在 */
+    if (!(p-&gt;next) || j &gt; i)
+        return ERROR;           
+    q = p-&gt;next;
+    /* 将q的后继赋值给p的后继 */
+    p-&gt;next = q-&gt;next;          
+    /* 将q结点中的数据给e */
+    *e = q-&gt;data;               
+    /* 让系统回收此结点，释放内存 */
+    free(q);                    
+    return OK;
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="整表创建" tabindex="-1"><a class="header-anchor" href="#整表创建"><span>整表创建</span></a></h4><p><strong>头插法</strong></p><!----><ol><li>声明指针p和变量i</li><li>初始化空链表L</li><li>建立带头结点的空表(头结点指向NULL)</li><li>循环： <ol><li>生成新节点，并赋值给p</li><li>随机生成数赋值给p的数据域</li><li>将p插入到头结点与新结点之间</li></ol></li></ol><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 随机产生n个元素的值，建立带表头结点的单链
+   线性表L（头插法） */
+void CreateListHead(LinkList *L, int n)
+{
+    LinkList p;
+    int i;
+    /* 初始化随机数种子 */
+    srand(time(0));                            
+    *L = (LinkList)malloc(sizeof(Node));
+    /* 先建立一个带头结点的单链表 */
+    (*L)-&gt;next = NULL;                         
+    for (i = 0; i &lt; n; i++)
+    {
+        /* 生成新结点 */
+        p = (LinkList)malloc(sizeof(Node));    
+        /* 随机生成100以内的数字 */
+        p-&gt;data = rand() % 100 + 1;            
+        p-&gt;next = (*L)-&gt;next;
+        /* 插入到表头 */
+        (*L)-&gt;next = p;                        
+    }
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>尾插法</strong></p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 随机产生n个元素的值，建立带表头结点的单链
+线性表L（尾插法） */
+void CreateListTail(LinkList *L, int n)
+{
+    LinkList p,r;
+    int i;
+    /* 初始化随机数种子 */
+    srand(time(0));                         
+    /* 为整个线性表 */
+    *L = (LinkList)malloc(sizeof(Node));    
+    /* r为指向尾部的结点 */
+    r = *L;                                 
+    for (i = 0; i &lt; n; i++)
+    {
+        /* 生成新结点 */
+        p = (Node *)malloc(sizeof(Node));   
+        /* 随机生成100以内的数字 */
+        p-&gt;data = rand() % 100 + 1;         
+        /* 将表尾终端结点的指针指向新结点 */
+        r-&gt;next = p;                        
+        /* 将当前的新结点定义为表尾终端结点 */
+        r = p;                              
+    }
+    /* 表示当前链表结束 */
+    r-&gt;next = NULL;                         
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="整表删除" tabindex="-1"><a class="header-anchor" href="#整表删除"><span>整表删除</span></a></h4><ol><li>声明指针p和q</li><li>将头结点赋值给p</li><li>循环： <ol><li>将下一结点赋值给q</li><li>释放p</li><li>将q赋值给p</li></ol></li></ol><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 初始条件：顺序线性表L已存在，操作结果：将L
+   重置为空表 */
+Status ClearList(LinkList *L)
+{
+    LinkList p, q;
+    /* p指向第一个结点 */
+    p = (*L)-&gt;next;       
+    /* 没到表尾 */
+    while (p)             
+    {
+        q = p-&gt;next;
+        free(p);
+        p=q;
+    }
+    /* 头结点指针域为空 */
+    (*L)-&gt;next = NULL;    
+    return OK;
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><table><thead><tr><th>线性表</th><th>存储方式</th><th>时间性能</th><th>空间性能</th><th>适用</th></tr></thead><tbody><tr><td>顺序表</td><td>连续存储</td><td>查找O(1)<br>插入O(n)<br>删除O(n)</td><td>预分配空间</td><td>频繁查找，很少插入删除</td></tr><tr><td>单链表</td><td>链式存储</td><td>查找O(n)<br>插入O(n)<br>删除O(n)</td><td>自由分配空间</td><td>元素个数多，变化大</td></tr></tbody></table><h2 id="静态链表" tabindex="-1"><a class="header-anchor" href="#静态链表"><span>静态链表</span></a></h2><h3 id="基本概念-1" tabindex="-1"><a class="header-anchor" href="#基本概念-1"><span>基本概念</span></a></h3><p><strong>静态链表</strong>：用数组描述的链表</p><!----><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 线性表的静态链表存储结构 */
+/* 假设链表的最大长度是1000 */
+#define MAXSIZE 1000                     
+typedef struct
+{
+    ElemType data;
+    /* 游标（Cursor），为0时表示无指向 */
+    int cur;                             
+} Component, 
+  /* 对于不提供结构struct的程序设计语言，
+     可以使用一对并行数组data和cur来处理。 */
+  StaticLinkList[MAXSIZE];
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!----><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 若备用空间链表非空，则返回分配的结点下标，
+   否则返回0 */
+int Malloc_SLL(StaticLinkList space)
+{
+    /* 当前数组第一个元素的cur存的值， */
+    /* 就是要返回的第一个备用空闲的下标 */
+    int i = space[0].cur;               
+    /* 由于要拿出一个分量来使用了，所以我们 */
+    /* 就得把它的下一个分量用来做备用 */
+    if (space[0].cur)
+        space[0].cur = space[i].cur;    
+    return i;
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>静态链表的优缺点</strong></p><ol><li>插入删除只改游标，不动元素</li><li>无法确定表长</li><li>无法随机读取</li></ol><h3 id="基本操作-1" tabindex="-1"><a class="header-anchor" href="#基本操作-1"><span>基本操作</span></a></h3><h4 id="插入-1" tabindex="-1"><a class="header-anchor" href="#插入-1"><span>插入</span></a></h4><!----><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 若备用空间链表非空，则返回分配的结点下标，
+   否则返回0 */
+int Malloc_SLL(StaticLinkList space)
+{
+    /* 当前数组第一个元素的cur存的值， */
+    /* 就是要返回的第一个备用空闲的下标 */
+    int i = space[0].cur;               
+    /* 由于要拿出一个分量来使用了，所以我们 */
+    /* 就得把它的下一个分量用来做备用 */
+    if (space[0].cur)
+        space[0].cur = space[i].cur;    
+    return i;
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 在L中第i个元素之前插入新的数据元素e  */
+  Status ListInsert(StaticLinkList L, int i, ElemType e)
+  {
+      int j, k, l;
+      /* 注意k首先是最后一个元素的下标 */
+      k = MAX_SIZE - 1;                   
+      if (i &lt; 1 || i &gt; ListLength(L) + 1)
+          return ERROR;
+      /* 获得空闲分量的下标 */
+      j = Malloc_SSL(L);                  
+      if (j)
+      {
+         /* 将数据赋值给此分量的data */
+         L[j].data = e;                  
+         /* 找到第i个元素之前的位置 */
+         for (l = 1; l &lt;= i - 1; l++)    
+             k = L[k].cur;
+         /* 把第i个元素之前的cur赋值给新元素的cur */
+         L[j].cur = L[k].cur;        
+         /* 把新元素的下标赋值给第i个元素之前元素的cur */
+         L[k].cur = j;                   
+         return OK;
+     }
+     return ERROR;
+ }
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="删除-1" tabindex="-1"><a class="header-anchor" href="#删除-1"><span>删除</span></a></h4><!----><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 删除在L中第i个数据元素e */
+Status ListDelete(StaticLinkList L, int i)
+{
+    int j, k;
+    if (i &lt; 1 || i &gt; ListLength(L))
+        return ERROR;
+    k = MAX_SIZE - 1;
+    for (j = 1; j &lt;= i - 1; j++)
+        k = L[k].cur;
+    j = L[k].cur;
+    L[k].cur = L[j].cur;
+    Free_SSL(L, j);
+    return OK;
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 将下标为k的空闲结点回收到备用链表 */
+void Free_SSL(StaticLinkList space, int k)
+{
+    /* 把第一个元素cur值赋给要删除的分量cur */
+    space[k].cur = space[0].cur;    
+    /* 把要删除的分量下标赋值给第一个元素的cur */
+    space[0].cur = k;               
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 初始条件：静态链表L已存在。操作结果：返回L
+   中数据元素个数 */
+int ListLength(StaticLinkList L)
+{
+    int j = 0;
+    int i = L[MAXSIZE - 1].cur;
+    while (i)
+    {
+        i = L[i].cur;
+        j++;
+    }
+    return j;
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="循环链表" tabindex="-1"><a class="header-anchor" href="#循环链表"><span>循环链表</span></a></h2><h3 id="基本概念-2" tabindex="-1"><a class="header-anchor" href="#基本概念-2"><span>基本概念</span></a></h3><p><strong>循环链表</strong>：将链表末端空指针改为指向头节点</p><p><strong>空循环链表</strong></p><!----><p><strong>非空循环链表</strong></p><!----><!----><h3 id="基本操作-2" tabindex="-1"><a class="header-anchor" href="#基本操作-2"><span>基本操作</span></a></h3><p><strong>合并链表</strong></p><!----><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 保存A表的头结点，即① */
+p = rearA-&gt;next;                    
+/*将本是指向B表的第一个结点（不是头结点） */
+rearA-&gt;next = rearB-&gt;next-&gt;next;    
+/* 赋值给reaA-&gt;next，即② */
+q = rearB-&gt;next;
+/* 将原A表的头结点赋值给rearB-&gt;next，即③ */
+rearB-&gt;next = p;                    
+/* 释放q */
+free(q);
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="双向链表" tabindex="-1"><a class="header-anchor" href="#双向链表"><span>双向链表</span></a></h2><h3 id="基本概念-3" tabindex="-1"><a class="header-anchor" href="#基本概念-3"><span>基本概念</span></a></h3><p><strong>双向链表</strong>：单链表的每个结点中设置一个指向前驱的指针域</p><p><strong>空双向链表</strong></p><!----><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 线性表的双向链表存储结构 */
+typedef struct DulNode
+{
+    ElemType data;
+    struct DuLNode *prior;    /* 直接前驱指针 */
+    struct DuLNode *next;     /* 直接后继指针 */
+} DulNode, *DuLinkList;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="基本操作-3" tabindex="-1"><a class="header-anchor" href="#基本操作-3"><span>基本操作</span></a></h3><h4 id="插入-2" tabindex="-1"><a class="header-anchor" href="#插入-2"><span>插入</span></a></h4><!----><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 把p赋值给s的前驱，如图中① */
+s-&gt;prior = p;          
+/* 把p-&gt;next赋值给s的后继，如图中② */
+s-&gt;next = p-&gt;next;     
+/* 把s赋值给p-&gt;next的前驱，如图中③ */
+p-&gt;next-&gt;prior = s;    
+/* 把s赋值给p的后继，如图中④ */
+p-&gt;next = s;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="删除-2" tabindex="-1"><a class="header-anchor" href="#删除-2"><span>删除</span></a></h4><!----><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>/* 把p-&gt;next赋值给p-&gt;prior的后继，如图中① */
+p-&gt;prior-&gt;next = p-&gt;next;     
+/* 把p-&gt;prior赋值给p-&gt;next的前驱，如图中② */
+p-&gt;next-&gt;prior = p-&gt;prior;    
+/* 释放结点 */
+free(p);
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="page-meta"><!----><!----><!----></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script src="/assets/js/v-0e121ed8.d2444f4a.js" defer></script><script src="/assets/js/runtime~app.6af18f5a.js" defer></script><script src="/assets/js/7591.0b8245e5.js" defer></script><script src="/assets/js/app.4591f028.js" defer></script>
+  </body>
+</html>

@@ -1,4 +1,115 @@
+# 一、入门
 
+## 1. 程序语言
+### 1.1 机器语言
+
+低级语言，0和1组成的二进制代码，计算机直接识别。
+
+### 1.2 汇编语言
+
+面向机器的程序设计语言，用英文和字符代替二级制代码。
+
+### 1.3 高级语言
+
+语法类似英文，贴近自然语言。
+
+## 2. 特点
+| 优点 | 缺点 |
+| --- | --- |
+| 代码量小 | 代码实现周期长 |
+| 运行速度快 | 平台库依赖较多 |
+| 功能丰富 |  |
+
+
+## 3. 应用
+
+- 嵌入式
+- web开发
+- 高性能服务
+- 分布式应用
+- 游戏服务器
+- 游戏引擎
+- 游戏脚本
+- 移动开发
+- 桌面开发
+- 操作系统
+- 虚拟技术
+- 数据库
+- 编译器
+
+## 4. 集成开发环境
+
+集成开发环境（IDE，Integrated Development Environment ）是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面工具。集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。所有具备这一特性的软件或者软件套（组）都可以叫集成开发环境。
+
+
+
+## 5. 第一个C程序
+
+### 5.2 calculate.c
+
+```
+#include <stdio.h>                         /*包含头文件stdio.h*/
+#define Height 10                          /*定义常量Height*/
+int calculate(int Long, int Width);        /*用户自定义函数calculate声明*/
+int main()                                 /*主函数main*/
+{
+    int m_Long;                            /*定义整型变量m_Long,表示长度*/
+    int m_Width;                           /*定义整型变量m Width,表示宽度*/
+    int result;                            /*定义整型变量result,表示体积*/
+    printf("长方形的高度为：%d\n", Height); /*产显示提示*/
+    printf("请输入长度\n");                 /*显示提示*/
+    scanf("%d", &m_Long);                  /*输入长方体的长度*/
+    printf("请输入宽度\n");                 /*显示提示*/
+    scanf("%d", &m_Width);                 /*输入长方体的宽度*/
+    result = calculate(m_Long, m_Width);   /*调用calculate函数，计算体积*/
+    printf("长方体的体积是：");             /*显示提示*/
+    printf("%d\n", result);                /*输出体积大小*/
+    return 0;                              /*程序返回0*/
+}
+int calculate(int Long, int Width)         /*自定义计算体积函数calculate*/
+{
+    int result = Long * Width * Height;    /*计算体积*/
+    return result;                         /*将计算的体积结果返回*/
+}
+```
+
+![](https://djm-1317856319.cos.ap-shanghai.myqcloud.com/djm-1317856319/202306291423261.png#id=BJS7U&originHeight=500&originWidth=809&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![](https://djm-1317856319.cos.ap-shanghai.myqcloud.com/djm-1317856319/202306291434563.png#height=317&id=XMJ7r&originHeight=913&originWidth=1441&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=&width=500)
+
+## 6. 编译过程
+
+### 6.1 编译步骤
+
+C代码编译成可执行程序经过4步：
+
+1. **预处理**：宏定义展开、头文件展开、条件编译等，同时将代码中的注释删除，这里并不会检查语法
+2. **编译**：检查语法，将预处理后文件编译生成汇编文件
+3. **汇编**：将汇编文件生成目标文件(二进制文件)
+4. **链接**：C语言写的程序是需要依赖各种库的，所以编译之后还需要把库链接到最终的可执行程序中去
+![](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml12536\wps27.jpg)
+
+### 6.2 编译指令
+
+**GCC命令**
+预处理：gcc -E hello.c -o hello.i
+编  译：gcc -S hello.i -o hello.s
+汇  编：gcc -c hello.s -o hello.o
+链  接：gcc hello.o -o hello
+一步编译：gcc hello.c -o hello
+
+| 选项 | 含义 |
+| --- | --- |
+| -u file | 指定生成的输出文件名为file |
+| -E | 只进行预处理 |
+| -S | 只进行预处理和编译 |
+| -c | 只进行预处理、编译和汇编 |
+
+| 文件后缀 | 含义 |
+| --- | --- |
+| .c | C 语言文件 |
+| .i | 预处理后的 C 语言文件 |
+| .s | 编译后的汇编文件 |
+| .o | 编译后的目标文件 |
 
 
 ## 5.代码分析
