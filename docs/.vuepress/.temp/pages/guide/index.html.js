@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-fffb8e28\",\"path\":\"/guide/\",\"title\":\"前端路线\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1741141661000,\"contributors\":[{\"name\":\"djm\",\"email\":\"1415847612@qq.com\",\"commits\":6}]},\"filePathRelative\":\"guide/README.md\"}")
