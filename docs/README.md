@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 # 背景图
 
 title: 主页

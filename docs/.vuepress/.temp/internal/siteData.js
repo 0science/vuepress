@@ -1,1 +1,1 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"赛博空间\",\"description\":\"一个汇集了我所学知识的仓库\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"image/monkey.ico\"}]],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/vuepress/\",\"lang\":\"en-US\",\"title\":\"赛博空间\",\"description\":\"一个汇集了我所学知识的仓库\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"image/monkey.ico\"}]],\"locales\":{}}")

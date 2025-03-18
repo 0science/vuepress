@@ -8,7 +8,7 @@ export default defineUserConfig({
   port: 8090,
   title: '赛博空间',
   description: '一个汇集了我所学知识的仓库',
-  // base: '.',
+  base: '/vuepress/',
   head: [['link', { rel: 'icon', href: 'image/monkey.ico' }]],
   theme: defaultTheme({
 
